@@ -1,0 +1,41 @@
+// Welcome to Iconode
+// You can use this file in your project instead of .css file, and build it with other your less files.
+
+@import "variables";
+@import "mixins";
+@import "functions";
+@import "generals";
+@import "icons";
+
+// $strokeSize，笔触大小，这里用来指定边框线宽
+
+[class*="icono-"] {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    color: $maincolor;
+    font-style: normal;
+    text-align: left;
+    text-indent: -9999px;
+    direction: ltr;
+    &:before, &:after{
+        content:'';
+        pointer-events: none;
+        //display: block;
+     }
+    &[class*="Circle"]{
+        box-shadow: 0 0 0 $strokeSize;      //采用box-shadow来画边框
+        border-radius: 50%;
+        width: 1.5em;
+        height: 1.5em;
+    }
+    &[class*="Square"]{
+        box-shadow: 0 0 0 $strokeSize;      //采用box-shadow来画边框
+        border-radius: $U4;
+        width: 1.5em;
+        height: 1.5em;
+    }
+    &, & *{
+        box-sizing: border-box;
+    }
+}

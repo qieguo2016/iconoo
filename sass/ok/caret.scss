@@ -1,0 +1,70 @@
+/**
+ * Carets
+ * 需要调整尺寸的时候只需要设置font-size即可等比缩放
+ */
+
+// $strokeSize，笔触大小，也就是图标的线宽
+
+.icono-caretRight {
+    font-size: $U20;        //主控参数
+    width: 0.5em;
+    height: 1em;
+    //margin: $U7 $U11;
+    &:before, &:after {
+        width: 0.707em;         //width effects icon size, base on icon's font-size
+        height: $strokeSize;    //height effects line width
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto 0;
+        right: 0;
+        box-shadow: inset 0 0 0 1em;
+        transform-origin: right;
+    }
+    &:before {
+        transform: rotate(45deg);
+    }
+    &:after {
+        transform: rotate(-45deg);
+    }
+}
+
+.icono-caretRightCircle, .icono-caretRightSquare {
+    @extend .icono-caretRight;
+}
+
+.icono-caretLeft {
+    @extend .icono-caretRight;
+    transform: rotate(180deg);
+}
+
+.icono-caretLeftCircle, .icono-caretLeftSquare {
+    @extend .icono-caretLeft;
+}
+
+.icono-caretUp {
+    @extend .icono-caretRight;
+    transform: rotate(-90deg);
+}
+
+.icono-caretUpCircle, .icono-caretUpSquare {
+    @extend .icono-caretUp;
+}
+
+.icono-caretDown {
+    @extend .icono-caretRight;
+    transform: rotate(90deg);
+}
+
+.icono-caretDownCircle, .icono-caretDownSquare {
+    @extend .icono-caretDown;
+}
+
+[class*="icono-caret"] {
+    &[class*="Circle"], &[class*="Square"] {
+        &:before, &:after {
+            width: 0.55em;  //width effects icon size, base on icon's font-size
+            right: 0.5em;   //居中
+        }
+    }
+}

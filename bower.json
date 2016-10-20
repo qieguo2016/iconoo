@@ -1,0 +1,7 @@
+{
+  "name": "icono",
+  "main": "./build/icono.css",
+  "ignore": [
+  ],
+  "private": false
+}

@@ -1,0 +1,8 @@
+/**
+ * Cross
+ * Cross is 45degree rotated plus
+ * 需要调整尺寸的时候只需要设置font-size即可等比缩放
+ */
+.icono-cross, .icono-crossCircle{
+	transform: rotate(45deg);
+}

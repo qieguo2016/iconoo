@@ -1,0 +1,51 @@
+{
+  "name": "iconoo",
+  "version": "1.0.0",
+  "description": "Pure CSS Icons base on iconoo",
+  "main": "./build/icono.css",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qieguo2016/iconoo.git"
+  },
+  "contributors": [
+	{
+	  "name": "Qieguo",
+      "email": "qieguo.chow@gmail.com",
+      "url": "https://github.com/qieguo2016"
+	},
+    {
+      "name": "Saeed Alipoor",
+      "email": "alipoor.sa@gmail.com",
+      "url": "https://github.com/saeedalipoor"
+    },
+    {
+      "name": "Adam Ellsworth",
+      "email": "adam.d.ellsworth@gmail.com",
+      "url": "https://github.com/adamellsworth"
+    }
+  ],
+  "keywords": [
+    "css",
+    "icons",
+    "ui",
+    "icono"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qieguo2016/iconoo/issues"
+  },
+  "homepage": "http://qieguo2016.github.io/iconoo/",
+  "devDependencies": {
+    "browser-sync": "^1.8.3",
+    "gulp": "^3.8.10",
+    "gulp-cssmin": "^0.1.6",
+    "gulp-less": "^2.0.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-notify": "^2.2.0",
+    "gulp-stylus": "^2.3.1",
+    "gulp-plumber": "^0.6.6",
+    "gulp-rename": "^1.2.0",
+    "gulp-watch": "^3.0.0",
+    "gulp-autoprefixer": "^2.3.0"
+  }
+}
