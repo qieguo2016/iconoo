@@ -1,54 +1,20 @@
-#icono
+#iconoo
 
-[![Join the chat at https://gitter.im/saeedalipoor/icono](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/saeedalipoor/icono?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
-**icono** is an icon pack that needs no external resources. Every tags can be an icon made with **pure CSS**.
+**iconoo** is an icon pack that needs no external resources. **iconoo** is base on icono, and it is flexible, and you don't need to calculate any diamesion.
 
 [Demo][2]
 
 ##How to use
 
-To get going with icono you can:
-
-* Download [icono.min.css][1]
-or
-* Install it with [Bower](http://bower.io):
-```
-$ bower install icono
-```
-or
-* Install it with [npm](https://www.npmjs.com):
-```
-$ npm install icono
-```
-
-And then load it in your page:
-```
-<link rel="stylesheet" href="icono.min.css">
-```
-
-or
-
-You can add icono folder in your project and import icono.less for compile. iconos maincolor can be changed in **variable.less**.
-
-and then
-
-just add iconos classes to any type of elements that support psuedo-element.
 
 ####Example:
-`<i class="icono-mail"></i>`
+`<i class="iconoo-mail"></i>`
 
-`<div class="icono-mail"></div>`
+`<div class="iconoo-mail"></div>`
 
-`<span class="icono-mail"></span>`
+`<span class="iconoo-mail"></span>`
 
-`<whatever class="icono-mail"></whatever>`
-
-Also you can change color of icons as simple as set color for an element.
-
-####Example:
-`i.heart{color: red;}`
-
+`<whatever class="iconoo-mail"></whatever>`
 
 ##Available classes
 * `icono-home`
@@ -196,5 +162,3 @@ Run Gulp
 
     $ gulp
 
-[1]:http://saeedalipoor.github.io/icono/icono.min.css
-[2]:http://saeedalipoor.github.io/icono
