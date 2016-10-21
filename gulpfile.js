@@ -36,7 +36,7 @@ gulp.task('stylus', function () {
 
 // 编译sass文件
 gulp.task('scss', function () {
-  return gulp.src('./sass/icono.scss')
+  return gulp.src('./sass/iconoo.scss')
              .pipe(plumber({errorHandler: notify.onError('Error: <%= error.message %>')}))
              //.pipe(plumber())
              .pipe(sass())

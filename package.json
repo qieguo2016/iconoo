@@ -1,34 +1,25 @@
 {
   "name": "iconoo",
   "version": "1.0.0",
-  "description": "Pure CSS Icons base on iconoo",
-  "main": "./build/icono.css",
+  "description": "Flexible Pure CSS Icons base on iconoo",
+  "main": "./build/iconoo.css",
   "repository": {
     "type": "git",
     "url": "https://github.com/qieguo2016/iconoo.git"
   },
   "contributors": [
-	{
-	  "name": "Qieguo",
+    {
+      "name": "Qieguo",
       "email": "qieguo.chow@gmail.com",
       "url": "https://github.com/qieguo2016"
-	},
-    {
-      "name": "Saeed Alipoor",
-      "email": "alipoor.sa@gmail.com",
-      "url": "https://github.com/saeedalipoor"
-    },
-    {
-      "name": "Adam Ellsworth",
-      "email": "adam.d.ellsworth@gmail.com",
-      "url": "https://github.com/adamellsworth"
     }
   ],
   "keywords": [
     "css",
     "icons",
     "ui",
-    "icono"
+    "iconoo",
+    "flexible"
   ],
   "license": "MIT",
   "bugs": {
