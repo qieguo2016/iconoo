@@ -61,18 +61,17 @@ gulp.task('cssmin', function () {
 gulp.task('browser-sync', function () {
   browserSync({
     server: {
-      baseDir    : './',
-      index      : 'index.html',
+      baseDir: './',
+      index: 'index.html',
       reloadDelay: 2000
     }
   });
 });
 
-
 gulp.task('default', ['browser-sync'], function () {
   gulp.watch(['./less/**/*.less'], ['less', browserSync.reload]);
   gulp.watch(['./stylus/**/*.styl'], ['stylus', browserSync.reload]);
-  gulp.watch(['./sass/*.scss'], ['scss', browserSync.reload]);
+  gulp.watch(['./sass/**/*.scss'], ['scss', browserSync.reload]);
   //gulp.watch(['./build/*.css'], ['cssmin', browserSync.reload]);
 });
 

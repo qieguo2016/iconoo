@@ -6,17 +6,15 @@
 // $strokeSize，笔触大小，也就是图标的线宽
 
 .icono-rightArrow {
-    font-size: $U20;        //主控参数
-    width: 0.5em;
-    height: 1em;
+    font-size: $U20; //主控参数
     width: 0.8em;
     height: 0.2em;
-    box-shadow: inset 0 0 0 $strokeSize;
-    transform: translateX(-1*0.15em);
+    box-shadow: inset 0 0 0 1em;
+    transform: translateX(-0.2em);
     &:before {
         @extend .stickCenterV;
         border-style: solid;
-        border-width: $U8 0 $U8 $U8;
+        border-width: 0.4em 0 0.4em 0.4em;
         border-color: transparent;
         border-left-color: inherit;
         left: 100%;
@@ -26,15 +24,15 @@
 
 .icono-leftArrow {
     @extend .icono-rightArrow;
-    transform: translateX($U3) rotate(180deg);
+    transform: translateX(0.2em) rotate(180deg);
 }
 
 .icono-upArrow {
     @extend .icono-rightArrow;
-    transform: translateY($U3) rotate(-90deg);
+    transform: translateY(0.2em) rotate(-90deg);
 }
 
 .icono-downArrow {
     @extend .icono-rightArrow;
-    transform: translateY(-1*$U3) rotate(90deg);
+    transform: translateY(-0.2em) rotate(90deg);
 }
