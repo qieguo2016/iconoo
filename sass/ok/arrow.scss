@@ -1,16 +1,15 @@
 /**
  * Arrow
  * 需要调整尺寸的时候只需要设置font-size即可等比缩放
+ * 主控参数默认值 font-size: $U20;
+ * PS：这里没有线宽的概念，只有等比缩放。
  */
 
-// $strokeSize，笔触大小，也就是图标的线宽
-
 .icono-rightArrow {
-    font-size: $U20; //主控参数
     width: 0.8em;
     height: 0.2em;
     box-shadow: inset 0 0 0 1em;
-    transform: translateX(-0.2em);
+    margin: 0.65em 0.55em 0.65em 0.15em;
     &:before {
         @extend .stickCenterV;
         border-style: solid;
@@ -24,15 +23,15 @@
 
 .icono-leftArrow {
     @extend .icono-rightArrow;
-    transform: translateX(0.2em) rotate(180deg);
+    transform: translateX(0.4em) rotate(180deg);
 }
 
 .icono-upArrow {
     @extend .icono-rightArrow;
-    transform: translateY(0.2em) rotate(-90deg);
+    transform: translate(0.2em, 0.2em) rotate(-90deg);
 }
 
 .icono-downArrow {
     @extend .icono-rightArrow;
-    transform: translateY(-0.2em) rotate(90deg);
+    transform: translate(0.2em, -0.2em) rotate(90deg);
 }

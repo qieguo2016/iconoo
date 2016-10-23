@@ -1,0 +1,86 @@
+/**
+ * Volume
+ * 需要调整尺寸的时候只需要设置font-size即可等比缩放
+ * 主控参数默认值 font-size: $U20;
+ * PS：这里没有线宽的概念，只有等比缩放。
+ */
+
+.icono-volume {
+    width: 0;
+    height: 0;
+    border: 0.35em solid;
+    border-left: none;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    padding: 0.3em 0.2em;
+    box-shadow: inset 0.2em 0;
+    margin: 0.1em 0.375em;
+}
+
+.icono-volumeLow {
+    @extend .icono-volume;
+    margin: 0.1em 0.5em 0.1em 0.25em;
+    &:before {
+        width: 0.75em;
+        height: 0.75em;
+        position: absolute;
+        border: 0.1em solid;
+        border-radius: 50%;
+        border-top-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+        left: 0.1em;
+        @extend .stickCenterV;
+    }
+}
+
+.icono-volumeMedium {
+    @extend .icono-volumeLow;
+    margin: 0.1em 0.6em 0.1em 0.15em;
+    &:before {
+        border-style: double;
+        border-width: 0.3em;
+        left: -0.1em;
+    }
+}
+
+.icono-volumeHigh {
+    @extend .icono-volumeMedium;
+    margin: 0.1em 0.7em 0.1em 0.05em;
+    &:after {
+        @extend .icono-volumeLow:before;
+        width: 1.6em;
+        height: 1.6em;
+        left: -0.35em;
+    }
+}
+
+.icono-volumeDecrease {
+    @extend .icono-volume;
+    margin: 0.1em 0.7em 0.1em 0.05em;
+    &:before, &:after {
+        @extend .stickCenterV;
+        box-shadow: inset 0 0 0 1em;
+    }
+    &:before {
+        width: 0.5em;
+        height: 0.1em;
+        left: 0.85em;
+    }
+}
+
+.icono-volumeIncrease {
+    @extend .icono-volumeDecrease;
+    &:after {
+        height: 0.5em;
+        width: 0.1em;
+        left: 1.05em;
+    }
+}
+
+.icono-volumeMute {
+    @extend .icono-volumeIncrease;
+    &:after, &:before {
+        transform: translateY(-50%) rotate(45deg);
+    }
+}

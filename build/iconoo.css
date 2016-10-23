@@ -16,24 +16,24 @@
  *    sqrt(2) // 1.41421
  *    sqrt(5) // 2.23607
  */
-.icono-stroke, .icono-home, .icono-home:before, .icono-home:after, .icono-mail, .icono-mail:before, .icono-power, .icono-heart, .icono-heart:before, .icono-heart:after, .icono-infinity:before, .icono-infinity:after, .icono-flag:before, .icono-flag:after, .icono-file, .icono-document, .icono-folder, .icono-pin, .icono-pin:before, .icono-smile, .icono-frown, .icono-meh, .icono-smile:after, .icono-frown:after, .icono-meh:after, .icono-eye, .icono-sync, .icono-signIn, .icono-signIn:before, .icono-signOut, .icono-signOut:before, .icono-chain:before, .icono-chain:after, .icono-youtube, .icono-youtube:before, .icono-rename, .icono-search, .icono-book, .icono-book:before, .icono-book:after, .icono-forbidden, .icono-trash, .icono-keyboard, .icono-mouse, .icono-mouse:before, .icono-user, .icono-user:before, .icono-crop, .icono-crop:before, .icono-display, .icono-imac, .icono-imacBold, .icono-iphone, .icono-iphoneBold, .icono-macbook:before, .icono-macbookBold:before, .icono-image, .icono-headphone, .icono-video, .icono-nexus, .icono-microphone, .icono-microphone:before, .icono-terminal, .icono-paperClip, .icono-paperClip:before, .icono-paperClip:after, .icono-market, .icono-market:after, .icono-clock, .icono-commentEmpty, .icono-areaChart, .icono-barChart, .icono-bookmarkEmpty, .icono-bookmarkEmpty:before, .icono-volumeLow:before, .icono-volumeMedium:before, .icono-volumeHigh:before, .icono-volumeHigh:after, .icono-tag, .icono-tag:after, .icono-camera, .icono-piano, .icono-ruler, .icono-creditCard {
+.icono-stroke, .icono-mail, .icono-mail:before, .icono-power, .icono-heart, .icono-heart:before, .icono-heart:after, .icono-infinity:before, .icono-infinity:after, .icono-flag:before, .icono-flag:after, .icono-file, .icono-document, .icono-folder, .icono-pin, .icono-pin:before, .icono-eye, .icono-sync, .icono-signIn, .icono-signIn:before, .icono-signOut, .icono-signOut:before, .icono-chain:before, .icono-chain:after, .icono-rename, .icono-book, .icono-book:before, .icono-book:after, .icono-forbidden, .icono-trash, .icono-keyboard, .icono-mouse, .icono-mouse:before, .icono-user, .icono-user:before, .icono-crop, .icono-crop:before, .icono-display, .icono-imac, .icono-imacBold, .icono-iphone, .icono-iphoneBold, .icono-macbook:before, .icono-macbookBold:before, .icono-nexus, .icono-image, .icono-headphone, .icono-video, .icono-microphone, .icono-microphone:before, .icono-terminal, .icono-paperClip, .icono-paperClip:before, .icono-paperClip:after, .icono-market, .icono-market:after, .icono-clock, .icono-commentEmpty, .icono-areaChart, .icono-barChart, .icono-bookmarkEmpty, .icono-bookmarkEmpty:before, .icono-tag, .icono-tag:after, .icono-camera, .icono-piano, .icono-ruler, .icono-youtube, .icono-youtube:before, .icono-creditCard {
   border: 2px solid; }
 
-.stickCenterV, .icono-dropper:before, .icono-list:before, .icono-chain:before, .icono-chain:after, .icono-rename:before, .icono-video:before, .icono-paperClip:before, .icono-indent:before, .icono-outdent:before, .icono-volumeLow:before, .icono-volumeMedium:before, .icono-volumeHigh:before, .icono-volumeHigh:after, .icono-volumeDecrease:before, .icono-volumeIncrease:before, .icono-volumeMute:before, .icono-volumeDecrease:after, .icono-volumeIncrease:after, .icono-volumeMute:after, .icono-flickr:before, .icono-flickr:after, .icono-rightArrow:before, .icono-leftArrow:before, .icono-upArrow:before, .icono-downArrow:before {
+.stickCenterV, .icono-dropper:before, .icono-chain:before, .icono-chain:after, .icono-rename:before, .icono-video:before, .icono-paperClip:before, .icono-indent:before, .icono-outdent:before, .icono-flickr:before, .icono-flickr:after, .icono-list:before, .icono-volumeLow:before, .icono-volumeMedium:before, .icono-volumeHigh:before, .icono-volumeHigh:after, .icono-volumeDecrease:before, .icono-volumeIncrease:before, .icono-volumeMute:before, .icono-volumeDecrease:after, .icono-volumeIncrease:after, .icono-volumeMute:after, .icono-rightArrow:before, .icono-leftArrow:before, .icono-upArrow:before, .icono-downArrow:before {
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
           transform: translateY(-50%); }
 
-.stickCenterH, .icono-search:before, .icono-trash:before, .icono-mouse:before, .icono-mouse:after, .icono-user:before, .icono-display:before, .icono-display:after, .icono-imac:after, .icono-imacBold:before, .icono-imacBold:after, .icono-iphone:before, .icono-iphone:after, .icono-macbook:before, .icono-macbookBold:before, .icono-microphone:before, .icono-microphone:after, .icono-market:after, [class*="icono-textAlign"].icono-textAlignCenter:before, [class*="icono-textAlign"].icono-textAlignCenter:after, [class*="icono-exclamation"]:after, .icono-tag:after, .icono-cup:after, .icono-sitemap:before, .icono-sitemap:after {
+.stickCenterH, .icono-trash:before, .icono-mouse:before, .icono-mouse:after, .icono-user:before, .icono-display:before, .icono-display:after, .icono-imac:after, .icono-imacBold:before, .icono-imacBold:after, .icono-iphone:before, .icono-iphone:after, .icono-macbook:before, .icono-macbookBold:before, .icono-microphone:before, .icono-microphone:after, .icono-market:after, [class*="icono-textAlign"].icono-textAlignCenter:before, [class*="icono-textAlign"].icono-textAlignCenter:after, [class*="icono-exclamation"]:after, .icono-tag:after, .icono-cup:after, .icono-sitemap:before, .icono-sitemap:after, .icono-search:before {
   position: absolute;
   left: 50%;
   -webkit-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
           transform: translateX(-50%); }
 
-.stickCenter, [class*="icono-plus"]:before, [class*="icono-plus"]:after, [class*="icono-cross"]:before, [class*="icono-cross"]:after, .icono-document:after, .icono-pin:before, .icono-eye:before, .icono-gear:before, .icono-youtube:after, .icono-forbidden:before, .icono-keyboard:before, .icono-video:after, .icono-clock:before, .icono-clock:after, .icono-camera:before, .icono-gplus:after, .icono-instagram:before {
+.stickCenter, .icono-document:after, .icono-pin:before, .icono-eye:before, .icono-gear:before, .icono-forbidden:before, .icono-keyboard:before, .icono-video:after, .icono-clock:before, .icono-clock:after, .icono-camera:before, .icono-gplus:after, .icono-instagram:before, .icono-youtube:after, [class*="icono-plus"]:before, [class*="icono-plus"]:after, [class*="icono-cross"]:before, [class*="icono-cross"]:after {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -61,6 +61,12 @@
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg); } }
 
+/**
+ * 各种logo简图：Play, Pause,Stop,Next,...
+ * 需要调整尺寸的时候只需要设置font-size即可等比缩放
+ * 主控参数默认值 font-size: $U20;
+ * PS：这里没有线宽的概念，只有等比缩放。
+ */
 .icono-icono {
   width: 13px;
   height: 4px;
@@ -94,33 +100,43 @@
         -ms-transform: skew(0, -30deg) scaleY(0.6);
             transform: skew(0, -30deg) scaleY(0.6); }
 
+/**
+ * search
+ * 需要调整尺寸的时候只需要设置font-size即可等比缩放
+ * 主控参数默认值 font-size: $U20;
+ * $strokeSize，笔触大小，也就是图标的线宽
+ */
 .icono-home {
-  width: 22px;
-  height: 16px;
+  width: 1.1em;
+  height: 0.8em;
+  border: 2px solid;
   border-top: none;
-  margin: 15px 6px 3px; }
+  margin: 0.65em 0.2em 0.05em 0.2em; }
   .icono-home:before {
-    width: 18px;
-    height: 18px;
-    -webkit-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-            transform: rotate(45deg);
+    width: 1em;
+    height: 1em;
+    -webkit-transform: translate(-50%, -0.35em) rotate(45deg);
+        -ms-transform: translate(-50%, -0.35em) rotate(45deg);
+            transform: translate(-50%, -0.35em) rotate(45deg);
     position: absolute;
-    left: -2px;
-    top: -7px;
+    left: 50%;
+    margin: auto;
+    border: 2px solid;
     border-right-color: transparent;
-    border-bottom-color: transparent; }
+    border-bottom-color: transparent;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
   .icono-home:after {
     position: absolute;
-    width: 6px;
-    height: 10px;
+    width: 0.3em;
+    height: 0.5em;
     bottom: 0;
     position: absolute;
     left: 50%;
     -webkit-transform: translateX(-50%);
         -ms-transform: translateX(-50%);
             transform: translateX(-50%);
-    border-width: 1px;
+    border: 1px solid;
     border-bottom: none; }
 
 .icono-mail {
@@ -161,83 +177,6 @@
     border: 4px solid transparent;
     -webkit-box-shadow: inset 0 0 0 2px, 0 0 0 2px;
             box-shadow: inset 0 0 0 2px, 0 0 0 2px; }
-
-.icono-bars, .icono-hamburger {
-  width: 20px;
-  height: 2px;
-  -webkit-box-shadow: inset 0 0 0 32px, 0 -6px, 0 6px;
-          box-shadow: inset 0 0 0 32px, 0 -6px, 0 6px;
-  margin: 16px 7px; }
-
-/**
- * Plus
- * 需要调整尺寸的时候只需要设置font-size即可等比缩放
- */
-[class*="icono-plus"], [class*="icono-cross"] {
-  font-size: 20px;
-  width: 1.5em;
-  height: 1.5em; }
-  [class*="icono-plus"]:before, [class*="icono-plus"]:after, [class*="icono-cross"]:before, [class*="icono-cross"]:after {
-    -webkit-box-shadow: inset 0 0 0 1em;
-            box-shadow: inset 0 0 0 1em; }
-  [class*="icono-plus"]:before, [class*="icono-cross"]:before {
-    width: 1em;
-    height: 2px; }
-  [class*="icono-plus"]:after, [class*="icono-cross"]:after {
-    height: 1em;
-    width: 2px; }
-  [class*="icono-plus"][class*="Circle"]:before, [class*="icono-cross"][class*="Circle"]:before {
-    width: 0.9em; }
-  [class*="icono-plus"][class*="Circle"]:after, [class*="icono-cross"][class*="Circle"]:after {
-    height: 0.9em; }
-
-/**
- * Cross
- * Cross is 45degree rotated plus
- * 需要调整尺寸的时候只需要设置font-size即可等比缩放
- */
-.icono-cross, .icono-crossCircle {
-  -webkit-transform: rotate(45deg);
-      -ms-transform: rotate(45deg);
-          transform: rotate(45deg); }
-
-/**
- * Check
- * 需要调整尺寸的时候只需要设置font-size即可等比缩放
- */
-[class*="icono-check"] {
-  font-size: 20px;
-  width: 1.5em;
-  height: 1.5em;
-  -webkit-transform: rotate(-45deg);
-      -ms-transform: rotate(-45deg);
-          transform: rotate(-45deg); }
-  [class*="icono-check"]:before, [class*="icono-check"]:after {
-    -webkit-box-shadow: inset 0 0 0 1em;
-            box-shadow: inset 0 0 0 1em; }
-  [class*="icono-check"]:before {
-    width: 1em;
-    height: 2px;
-    position: absolute;
-    left: 1em;
-    top: 1em;
-    -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%); }
-  [class*="icono-check"]:after {
-    height: 0.6em;
-    width: 2px;
-    position: absolute;
-    left: 0.5em;
-    bottom: 0.5em; }
-  [class*="icono-check"][class*="Circle"]:before {
-    width: 0.78em;
-    top: 0.9em;
-    left: 0.85em; }
-  [class*="icono-check"][class*="Circle"]:after {
-    height: 0.4em;
-    left: 0.46em;
-    bottom: 0.6em; }
 
 .icono-power {
   width: 22px;
@@ -396,34 +335,6 @@
     height: 6px;
     border-radius: 50%; }
 
-.icono-smile, .icono-frown, .icono-meh {
-  border-radius: 50%;
-  height: 30px;
-  width: 30px;
-  margin: 2px; }
-  .icono-smile:before, .icono-frown:before, .icono-meh:before {
-    border-radius: 50%;
-    -webkit-box-shadow: 8px 0 0 0, 0 0 0 2px inset;
-            box-shadow: 8px 0 0 0, 0 0 0 2px inset;
-    height: 4px;
-    width: 4px;
-    left: 7px;
-    position: absolute;
-    top: 27%; }
-  .icono-smile:after, .icono-frown:after, .icono-meh:after {
-    border-radius: 50%;
-    -webkit-transform: translateX(-50%);
-        -ms-transform: translateX(-50%);
-            transform: translateX(-50%);
-    border-top-color: transparent;
-    border-left-color: transparent;
-    border-right-color: transparent;
-    height: 16px;
-    left: 50%;
-    position: absolute;
-    top: 6%;
-    width: 16px; }
-
 .icono-eye {
   border-radius: 80% 20%;
   -webkit-transform: rotate(45deg);
@@ -464,30 +375,40 @@
     -webkit-box-shadow: inset 0 0 0 32px, 10px 0, -10px 0;
             box-shadow: inset 0 0 0 32px, 10px 0, -10px 0; }
 
+/**
+ * Share
+ * 需要调整尺寸的时候只需要设置font-size即可等比缩放
+ * 主控参数默认值 font-size: $U20;
+ * PS：这里没有线宽的概念，只有等比缩放。
+ */
 .icono-share {
-  height: 9px;
-  width: 9px;
+  height: 0.45em;
+  width: 0.45em;
   border-radius: 50%;
-  -webkit-box-shadow: inset 0 0 0 32px, 22px -11px 0 0, 22px 11px 0 0;
-          box-shadow: inset 0 0 0 32px, 22px -11px 0 0, 22px 11px 0 0;
-  margin: 12px 24px 13px 1px; }
+  -webkit-box-shadow: inset 0 0 0 1em, 1.1em -0.5em 0 0, 1.1em 0.5em 0 0;
+          box-shadow: inset 0 0 0 1em, 1.1em -0.5em 0 0, 1.1em 0.5em 0 0;
+  margin: 0.55em 1.15em 0.55em -0.05em; }
   .icono-share:before, .icono-share:after {
     position: absolute;
-    width: 24px;
-    height: 2px;
-    -webkit-box-shadow: inset 0 0 0 32px;
-            box-shadow: inset 0 0 0 32px;
+    width: 1.2em;
+    height: 0.1em;
+    -webkit-box-shadow: inset 0 0 0 1em;
+            box-shadow: inset 0 0 0 1em;
     left: 0; }
   .icono-share:before {
-    top: -2px;
-    -webkit-transform: rotate(-25deg);
-        -ms-transform: rotate(-25deg);
-            transform: rotate(-25deg); }
+    -webkit-transform-origin: left;
+        -ms-transform-origin: left;
+            transform-origin: left;
+    -webkit-transform: translate(0.35em, 0.1em) rotate(-25deg);
+        -ms-transform: translate(0.35em, 0.1em) rotate(-25deg);
+            transform: translate(0.35em, 0.1em) rotate(-25deg); }
   .icono-share:after {
-    top: 9px;
-    -webkit-transform: rotate(25deg);
-        -ms-transform: rotate(25deg);
-            transform: rotate(25deg); }
+    -webkit-transform-origin: left;
+        -ms-transform-origin: left;
+            transform-origin: left;
+    -webkit-transform: translate(0.25em, 0.2em) rotate(25deg);
+        -ms-transform: translate(0.25em, 0.2em) rotate(25deg);
+            transform: translate(0.25em, 0.2em) rotate(25deg); }
 
 .icono-sync {
   width: 26px;
@@ -651,26 +572,6 @@
     -webkit-box-shadow: inset 0 0 0 32px;
             box-shadow: inset 0 0 0 32px; }
 
-.icono-tiles {
-  width: 4px;
-  height: 4px;
-  -webkit-box-shadow: 0 -8px 0, -8px -8px 0, 8px -8px 0, 0 0 0 32px inset, -8px 0 0, 8px 0 0, 0 8px 0, -8px 8px 0, 8px 8px 0;
-          box-shadow: 0 -8px 0, -8px -8px 0, 8px -8px 0, 0 0 0 32px inset, -8px 0 0, 8px 0 0, 0 8px 0, -8px 8px 0, 8px 8px 0;
-  margin: 15px; }
-
-.icono-list {
-  width: 4px;
-  height: 4px;
-  -webkit-box-shadow: inset 0 0 0 32px, 0 -8px 0 0, 0 8px 0 0;
-          box-shadow: inset 0 0 0 32px, 0 -8px 0 0, 0 8px 0 0;
-  margin: 15px 26px 15px 4px; }
-  .icono-list:before {
-    width: 18px;
-    height: 4px;
-    left: 8px;
-    -webkit-box-shadow: inset 0 0 0 32px, 0 -8px 0 0, 0 8px 0 0;
-            box-shadow: inset 0 0 0 32px, 0 -8px 0 0, 0 8px 0 0; }
-
 .icono-chain {
   width: 16px;
   height: 2px;
@@ -688,30 +589,6 @@
     right: -10px; }
   .icono-chain:after {
     left: -10px; }
-
-.icono-youtube {
-  border-right-color: transparent;
-  border-left-color: transparent;
-  border-radius: 10px;
-  width: 32px;
-  height: 22.28878px;
-  margin: 6px 1px; }
-  .icono-youtube:before {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    border-top-color: transparent;
-    border-bottom-color: transparent;
-    border-radius: 6px / 3px; }
-  .icono-youtube:after {
-    width: 0;
-    height: 0;
-    border-width: 4px 0 4px 8px;
-    border-style: solid;
-    border-top-color: transparent;
-    border-bottom-color: transparent; }
 
 .icono-rename {
   width: 26px;
@@ -731,22 +608,6 @@
     border-left-color: transparent;
     -webkit-box-shadow: 0 0 0 1px inset;
             box-shadow: 0 0 0 1px inset; }
-
-.icono-search {
-  width: 22px;
-  height: 22px;
-  border-radius: 50%;
-  -webkit-transform: rotate(45deg);
-      -ms-transform: rotate(45deg);
-          transform: rotate(45deg);
-  margin: 4px 4px 8px 8px; }
-  .icono-search:before {
-    width: 4px;
-    height: 11px;
-    -webkit-box-shadow: inset 0 0 0 32px;
-            box-shadow: inset 0 0 0 32px;
-    top: 19px;
-    border-radius: 0 0 1px 1px; }
 
 .icono-book {
   width: 26px;
@@ -895,6 +756,12 @@
     -webkit-box-shadow: inset 0 0 0 32px;
             box-shadow: inset 0 0 0 32px; }
 
+/**
+ * 各种设备简图：Play, Pause,Stop,Next,...
+ * 需要调整尺寸的时候只需要设置font-size即可等比缩放
+ * 主控参数默认值 font-size: $U20;
+ * PS：这里没有线宽的概念，只有等比缩放。
+ */
 .icono-imac {
   width: 28px;
   height: 24px;
@@ -999,6 +866,13 @@
     border-width: 3px 2px 1px;
     border-radius: 3px 3px 0 0; }
 
+.icono-nexus {
+  width: 21px;
+  height: 32px;
+  border-width: 3px 1px;
+  border-radius: 16px / 3px;
+  margin: 1px 7px 1px 6px; }
+
 .icono-image {
   width: 30px;
   height: 26px;
@@ -1087,13 +961,6 @@
     border-style: solid;
     border-top-color: transparent;
     border-bottom-color: transparent; }
-
-.icono-nexus {
-  width: 21px;
-  height: 32px;
-  border-width: 3px 1px;
-  border-radius: 16px / 3px;
-  margin: 1px 7px 1px 6px; }
 
 .icono-microphone {
   width: 22px;
@@ -1276,21 +1143,6 @@
       -webkit-box-shadow: inset 0 0 0 32px, 0 3px, 0 5px, 0 10px;
               box-shadow: inset 0 0 0 32px, 0 3px, 0 5px, 0 10px;
       top: 6px; }
-
-.icono-frown:after {
-  -webkit-transform: translateX(-50%) rotate(180deg);
-      -ms-transform: translateX(-50%) rotate(180deg);
-          transform: translateX(-50%) rotate(180deg);
-  -webkit-transform-origin: center 85%;
-      -ms-transform-origin: center 85%;
-          transform-origin: center 85%; }
-
-.icono-meh:after {
-  top: 0;
-  width: 12px;
-  border-left-width: 0;
-  border-right-width: 0;
-  border-radius: 0; }
 
 .icono-indent, .icono-outdent {
   width: 20px;
@@ -1494,64 +1346,6 @@
   -webkit-box-shadow: inset 0 7px;
           box-shadow: inset 0 7px;
   margin: 9px 4px; }
-
-.icono-volume, .icono-volumeLow, .icono-volumeMedium, .icono-volumeHigh, .icono-volumeDecrease, .icono-volumeIncrease, .icono-volumeMute {
-  width: 0;
-  height: 0;
-  border: 7px solid;
-  border-left: none;
-  border-top-color: transparent;
-  border-bottom-color: transparent;
-  padding: 6px 3px;
-  -webkit-box-shadow: inset 4px 0;
-          box-shadow: inset 4px 0;
-  margin: 4px 10px 4px 11px; }
-
-.icono-volumeLow, .icono-volumeMedium, .icono-volumeHigh {
-  margin: 4px 14px 4px 7px; }
-  .icono-volumeLow:before, .icono-volumeMedium:before, .icono-volumeHigh:before, .icono-volumeHigh:after {
-    width: 15px;
-    height: 15px;
-    position: absolute;
-    border-radius: 50%;
-    border-top-color: transparent;
-    border-bottom-color: transparent;
-    border-left-color: transparent;
-    left: 2px; }
-
-.icono-volumeMedium, .icono-volumeHigh {
-  margin: 4px 16px 4px 5px; }
-  .icono-volumeMedium:before, .icono-volumeHigh:before {
-    border-style: double;
-    border-width: 6px;
-    left: -2px; }
-
-.icono-volumeHigh {
-  margin: 4px 18px 4px 3px; }
-  .icono-volumeHigh:after {
-    width: 32px;
-    height: 32px;
-    left: -7px; }
-
-.icono-volumeDecrease, .icono-volumeIncrease, .icono-volumeMute {
-  margin: 4px 16px 4px 5px; }
-  .icono-volumeDecrease:before, .icono-volumeIncrease:before, .icono-volumeMute:before, .icono-volumeDecrease:after, .icono-volumeIncrease:after, .icono-volumeMute:after {
-    -webkit-box-shadow: inset 0 0 0 32px;
-            box-shadow: inset 0 0 0 32px; }
-  .icono-volumeDecrease:before, .icono-volumeIncrease:before, .icono-volumeMute:before {
-    width: 10px;
-    height: 2px;
-    left: 17px; }
-
-.icono-volumeIncrease:after, .icono-volumeMute:after {
-  height: 10px;
-  width: 2px;
-  left: 21px; }
-
-.icono-volumeMute:after, .icono-volumeMute:before {
-  -webkit-transform: translateY(-50%) rotate(45deg);
-      -ms-transform: translateY(-50%) rotate(45deg);
-          transform: translateY(-50%) rotate(45deg); }
 
 .icono-tag {
   width: 18px;
@@ -1910,6 +1704,30 @@
     left: -6px;
     top: -23px; }
 
+.icono-youtube {
+  border-right-color: transparent;
+  border-left-color: transparent;
+  border-radius: 10px;
+  width: 32px;
+  height: 22.28878px;
+  margin: 6px 1px; }
+  .icono-youtube:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-radius: 6px / 3px; }
+  .icono-youtube:after {
+    width: 0;
+    height: 0;
+    border-width: 4px 0 4px 8px;
+    border-style: solid;
+    border-top-color: transparent;
+    border-bottom-color: transparent; }
+
 .icono-creditCard {
   width: 32px;
   height: 24px;
@@ -1954,154 +1772,6 @@
     border-radius: 0 0 3px 3px;
     -webkit-box-shadow: inset 0 0 0 32px;
             box-shadow: inset 0 0 0 32px; }
-
-.icono-play {
-  width: 0;
-  height: 0;
-  border-width: 10px 0 10px 16px;
-  border-style: solid;
-  border-top-color: transparent;
-  border-bottom-color: transparent;
-  margin: 7px 9px; }
-
-.icono-pause {
-  width: 6px;
-  height: 20px;
-  margin: 7px 20px 7px 8px;
-  -webkit-box-shadow: inset 0 0 0 32px, 12px 0 0 0;
-          box-shadow: inset 0 0 0 32px, 12px 0 0 0; }
-
-.icono-stop {
-  width: 0;
-  height: 0;
-  border: solid 10px;
-  margin: 7px; }
-
-.icono-rewind {
-  -webkit-transform: rotate(180deg);
-      -ms-transform: rotate(180deg);
-          transform: rotate(180deg); }
-
-.icono-forward, .icono-rewind {
-  width: 0;
-  height: 0;
-  border: 10px solid transparent;
-  border-left: 10px solid;
-  margin: 7px; }
-  .icono-forward:before, .icono-rewind:before {
-    position: absolute;
-    left: 0;
-    top: -10px;
-    width: 0;
-    height: 0;
-    border: 10px solid transparent;
-    border-left: 10px solid; }
-
-.icono-next, .icono-previous {
-  width: 0;
-  height: 0;
-  border: 10px solid transparent;
-  border-left: 10px solid;
-  margin: 7px; }
-  .icono-next:before, .icono-previous:before {
-    position: absolute;
-    left: 0;
-    top: -10px;
-    width: 0;
-    height: 0;
-    border-width: 10px 3px 10px 3px;
-    border-style: solid; }
-
-.icono-previous {
-  -webkit-transform: rotate(180deg);
-      -ms-transform: rotate(180deg);
-          transform: rotate(180deg);
-  margin: 7px 10px 7px 14px; }
-
-/**
- * Carets
- * 需要调整尺寸的时候只需要设置font-size即可等比缩放
- */
-.icono-caretRight, .icono-caretRightCircle, .icono-caretRightSquare, .icono-caretLeft, .icono-caretLeftCircle, .icono-caretLeftSquare, .icono-caretUp, .icono-caretUpCircle, .icono-caretUpSquare, .icono-caretDown, .icono-caretDownCircle, .icono-caretDownSquare {
-  font-size: 20px;
-  width: 0.5em;
-  height: 1em; }
-  .icono-caretRight:before, .icono-caretRightCircle:before, .icono-caretRightSquare:before, .icono-caretLeft:before, .icono-caretLeftCircle:before, .icono-caretLeftSquare:before, .icono-caretUp:before, .icono-caretUpCircle:before, .icono-caretUpSquare:before, .icono-caretDown:before, .icono-caretDownCircle:before, .icono-caretDownSquare:before, .icono-caretRight:after, .icono-caretRightCircle:after, .icono-caretRightSquare:after, .icono-caretLeft:after, .icono-caretLeftCircle:after, .icono-caretLeftSquare:after, .icono-caretUp:after, .icono-caretUpCircle:after, .icono-caretUpSquare:after, .icono-caretDown:after, .icono-caretDownCircle:after, .icono-caretDownSquare:after {
-    width: 0.707em;
-    height: 2px;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    margin: auto 0;
-    right: 0;
-    -webkit-box-shadow: inset 0 0 0 1em;
-            box-shadow: inset 0 0 0 1em;
-    -webkit-transform-origin: right;
-        -ms-transform-origin: right;
-            transform-origin: right; }
-  .icono-caretRight:before, .icono-caretRightCircle:before, .icono-caretRightSquare:before, .icono-caretLeft:before, .icono-caretLeftCircle:before, .icono-caretLeftSquare:before, .icono-caretUp:before, .icono-caretUpCircle:before, .icono-caretUpSquare:before, .icono-caretDown:before, .icono-caretDownCircle:before, .icono-caretDownSquare:before {
-    -webkit-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-            transform: rotate(45deg); }
-  .icono-caretRight:after, .icono-caretRightCircle:after, .icono-caretRightSquare:after, .icono-caretLeft:after, .icono-caretLeftCircle:after, .icono-caretLeftSquare:after, .icono-caretUp:after, .icono-caretUpCircle:after, .icono-caretUpSquare:after, .icono-caretDown:after, .icono-caretDownCircle:after, .icono-caretDownSquare:after {
-    -webkit-transform: rotate(-45deg);
-        -ms-transform: rotate(-45deg);
-            transform: rotate(-45deg); }
-
-.icono-caretLeft, .icono-caretLeftCircle, .icono-caretLeftSquare {
-  -webkit-transform: rotate(180deg);
-      -ms-transform: rotate(180deg);
-          transform: rotate(180deg); }
-
-.icono-caretUp, .icono-caretUpCircle, .icono-caretUpSquare {
-  -webkit-transform: rotate(-90deg);
-      -ms-transform: rotate(-90deg);
-          transform: rotate(-90deg); }
-
-.icono-caretDown, .icono-caretDownCircle, .icono-caretDownSquare {
-  -webkit-transform: rotate(90deg);
-      -ms-transform: rotate(90deg);
-          transform: rotate(90deg); }
-
-[class*="icono-caret"][class*="Circle"]:before, [class*="icono-caret"][class*="Circle"]:after, [class*="icono-caret"][class*="Square"]:before, [class*="icono-caret"][class*="Square"]:after {
-  width: 0.55em;
-  right: 0.5em; }
-
-/**
- * Arrow
- * 需要调整尺寸的时候只需要设置font-size即可等比缩放
- */
-.icono-rightArrow, .icono-leftArrow, .icono-upArrow, .icono-downArrow {
-  font-size: 20px;
-  width: 0.8em;
-  height: 0.2em;
-  -webkit-box-shadow: inset 0 0 0 1em;
-          box-shadow: inset 0 0 0 1em;
-  -webkit-transform: translateX(-0.2em);
-      -ms-transform: translateX(-0.2em);
-          transform: translateX(-0.2em); }
-  .icono-rightArrow:before, .icono-leftArrow:before, .icono-upArrow:before, .icono-downArrow:before {
-    border-style: solid;
-    border-width: 0.4em 0 0.4em 0.4em;
-    border-color: transparent;
-    border-left-color: inherit;
-    left: 100%;
-    right: auto; }
-
-.icono-leftArrow {
-  -webkit-transform: translateX(0.2em) rotate(180deg);
-      -ms-transform: translateX(0.2em) rotate(180deg);
-          transform: translateX(0.2em) rotate(180deg); }
-
-.icono-upArrow {
-  -webkit-transform: translateY(0.2em) rotate(-90deg);
-      -ms-transform: translateY(0.2em) rotate(-90deg);
-          transform: translateY(0.2em) rotate(-90deg); }
-
-.icono-downArrow {
-  -webkit-transform: translateY(-0.2em) rotate(90deg);
-      -ms-transform: translateY(-0.2em) rotate(90deg);
-          transform: translateY(-0.2em) rotate(90deg); }
 
 .icono-sun {
   width: 22px;
@@ -2171,13 +1841,6 @@
   border-radius: 50%;
   margin: 6px; }
 
-.icono-ellipsis {
-  width: 4px;
-  height: 4px;
-  -webkit-box-shadow: 0 -8px 0, 0 0 0 32px inset, 0 8px 0;
-          box-shadow: 0 -8px 0, 0 0 0 32px inset, 0 8px 0;
-  margin: 15px; }
-
 .icono-spinner {
   width: 22px;
   height: 22px;
@@ -2209,11 +1872,416 @@
     -webkit-transform: rotate(45deg) rotateX(180deg);
             transform: rotate(45deg) rotateX(180deg); }
 
+/**
+ * search
+ * 需要调整尺寸的时候只需要设置font-size即可等比缩放
+ * 主控参数默认值 font-size: $U20;
+ * PS：这里没有线宽的概念，只有等比缩放。
+ */
+.icono-bars, .icono-hamburger {
+  width: 1em;
+  height: 0.1em;
+  -webkit-box-shadow: inset 0 0 0 1em, 0 -0.3em, 0 0.3em;
+          box-shadow: inset 0 0 0 1em, 0 -0.3em, 0 0.3em;
+  margin: 0.7em 0.25em; }
+
+.icono-ellipsis {
+  width: 0.2em;
+  height: 0.2em;
+  -webkit-box-shadow: 0 -0.4em 0, 0 0 0 1em inset, 0 0.4em 0;
+          box-shadow: 0 -0.4em 0, 0 0 0 1em inset, 0 0.4em 0;
+  margin: 0.65em; }
+
+.icono-tiles {
+  width: 0.2em;
+  height: 0.2em;
+  -webkit-box-shadow: 0 -0.4em 0, -0.4em -0.4em 0, 0.4em -0.4em 0, 0 0 0 1em inset, -0.4em 0 0, 0.4em 0 0, 0 0.4em 0, -0.4em 0.4em 0, 0.4em 0.4em 0;
+          box-shadow: 0 -0.4em 0, -0.4em -0.4em 0, 0.4em -0.4em 0, 0 0 0 1em inset, -0.4em 0 0, 0.4em 0 0, 0 0.4em 0, -0.4em 0.4em 0, 0.4em 0.4em 0;
+  margin: 0.65em; }
+
+.icono-list {
+  width: 0.2em;
+  height: 0.2em;
+  -webkit-box-shadow: inset 0 0 0 1em, 0 -0.4em 0 0, 0 0.4em 0 0;
+          box-shadow: inset 0 0 0 1em, 0 -0.4em 0 0, 0 0.4em 0 0;
+  margin: 0.65em 1.2em 0.65em 0.1em; }
+  .icono-list:before {
+    width: 0.9em;
+    height: 0.2em;
+    left: 0.4em;
+    -webkit-box-shadow: inset 0 0 0 1em, 0 -0.4em 0 0, 0 0.4em 0 0;
+            box-shadow: inset 0 0 0 1em, 0 -0.4em 0 0, 0 0.4em 0 0; }
+
+/**
+ * search
+ * 需要调整尺寸的时候只需要设置font-size即可等比缩放
+ * 主控参数默认值 font-size: $U20;
+ * PS：这里没有线宽的概念，只有等比缩放。
+ */
+.icono-search {
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  border: 0.1em solid;
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+  margin: 0.15em 0.15em 0.35em 0.35em; }
+  .icono-search:before {
+    width: 0.2em;
+    height: 0.65em;
+    -webkit-box-shadow: inset 0 0 0 1em;
+            box-shadow: inset 0 0 0 1em;
+    top: 0.85em;
+    border-radius: 0 0 0.05em 0.05em; }
+
+/**
+ * Volume
+ * 需要调整尺寸的时候只需要设置font-size即可等比缩放
+ * 主控参数默认值 font-size: $U20;
+ * PS：这里没有线宽的概念，只有等比缩放。
+ */
+.icono-volume, .icono-volumeLow, .icono-volumeMedium, .icono-volumeHigh, .icono-volumeDecrease, .icono-volumeIncrease, .icono-volumeMute {
+  width: 0;
+  height: 0;
+  border: 0.35em solid;
+  border-left: none;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  padding: 0.3em 0.2em;
+  -webkit-box-shadow: inset 0.2em 0;
+          box-shadow: inset 0.2em 0;
+  margin: 0.1em 0.375em; }
+
+.icono-volumeLow, .icono-volumeMedium, .icono-volumeHigh {
+  margin: 0.1em 0.5em 0.1em 0.25em; }
+  .icono-volumeLow:before, .icono-volumeMedium:before, .icono-volumeHigh:before, .icono-volumeHigh:after {
+    width: 0.75em;
+    height: 0.75em;
+    position: absolute;
+    border: 0.1em solid;
+    border-radius: 50%;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    left: 0.1em; }
+
+.icono-volumeMedium, .icono-volumeHigh {
+  margin: 0.1em 0.6em 0.1em 0.15em; }
+  .icono-volumeMedium:before, .icono-volumeHigh:before {
+    border-style: double;
+    border-width: 0.3em;
+    left: -0.1em; }
+
+.icono-volumeHigh {
+  margin: 0.1em 0.7em 0.1em 0.05em; }
+  .icono-volumeHigh:after {
+    width: 1.6em;
+    height: 1.6em;
+    left: -0.35em; }
+
+.icono-volumeDecrease, .icono-volumeIncrease, .icono-volumeMute {
+  margin: 0.1em 0.7em 0.1em 0.05em; }
+  .icono-volumeDecrease:before, .icono-volumeIncrease:before, .icono-volumeMute:before, .icono-volumeDecrease:after, .icono-volumeIncrease:after, .icono-volumeMute:after {
+    -webkit-box-shadow: inset 0 0 0 1em;
+            box-shadow: inset 0 0 0 1em; }
+  .icono-volumeDecrease:before, .icono-volumeIncrease:before, .icono-volumeMute:before {
+    width: 0.5em;
+    height: 0.1em;
+    left: 0.85em; }
+
+.icono-volumeIncrease:after, .icono-volumeMute:after {
+  height: 0.5em;
+  width: 0.1em;
+  left: 1.05em; }
+
+.icono-volumeMute:after, .icono-volumeMute:before {
+  -webkit-transform: translateY(-50%) rotate(45deg);
+      -ms-transform: translateY(-50%) rotate(45deg);
+          transform: translateY(-50%) rotate(45deg); }
+
+/**
+ * Cross & Plus
+ * Cross is 45degree rotated plus
+ * 需要调整尺寸的时候只需要设置font-size即可等比缩放
+ * 主控参数默认值 font-size: $U20;
+ * $strokeSize，笔触大小，也就是图标的线宽
+ */
+[class*="icono-plus"], [class*="icono-cross"] {
+  width: 1.5em;
+  height: 1.5em; }
+  [class*="icono-plus"]:before, [class*="icono-plus"]:after, [class*="icono-cross"]:before, [class*="icono-cross"]:after {
+    -webkit-box-shadow: inset 0 0 0 1em;
+            box-shadow: inset 0 0 0 1em; }
+  [class*="icono-plus"]:before, [class*="icono-cross"]:before {
+    width: 1em;
+    height: 2px; }
+  [class*="icono-plus"]:after, [class*="icono-cross"]:after {
+    height: 1em;
+    width: 2px; }
+  [class*="icono-plus"][class*="Circle"]:before, [class*="icono-cross"][class*="Circle"]:before {
+    width: 0.9em; }
+  [class*="icono-plus"][class*="Circle"]:after, [class*="icono-cross"][class*="Circle"]:after {
+    height: 0.9em; }
+
+.icono-cross, .icono-crossCircle {
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg); }
+
+/**
+ * Check
+ * 需要调整尺寸的时候只需要设置font-size即可等比缩放
+ * 主控参数默认值 font-size: $U20;
+ * $strokeSize，笔触大小，也就是图标的线宽
+ */
+[class*="icono-check"] {
+  width: 1.5em;
+  height: 1.5em;
+  -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg); }
+  [class*="icono-check"]:before, [class*="icono-check"]:after {
+    -webkit-box-shadow: inset 0 0 0 1em;
+            box-shadow: inset 0 0 0 1em; }
+  [class*="icono-check"]:before {
+    width: 1em;
+    height: 2px;
+    position: absolute;
+    left: 0.9em;
+    top: 0.9em;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%); }
+  [class*="icono-check"]:after {
+    height: 0.6em;
+    width: 2px;
+    position: absolute;
+    left: 0.4em;
+    bottom: 0.6em; }
+  [class*="icono-check"][class*="Circle"]:before {
+    width: 0.78em;
+    top: 0.9em;
+    left: 0.85em; }
+  [class*="icono-check"][class*="Circle"]:after {
+    height: 0.4em;
+    left: 0.46em;
+    bottom: 0.6em; }
+
+/**
+ * 音频视频控制按钮：Play, Pause,Stop,Next,...
+ * 需要调整尺寸的时候只需要设置font-size即可等比缩放
+ * 主控参数默认值 font-size: $U20;
+ * PS：这里没有线宽的概念，只有等比缩放。
+ */
+.icono-play {
+  width: 0;
+  height: 0;
+  margin: 0.25em 0.35em;
+  border-width: 0.5em 0 0.5em 0.8em;
+  border-style: solid;
+  border-top-color: transparent;
+  border-bottom-color: transparent; }
+
+.icono-pause {
+  width: 0.3em;
+  height: 1em;
+  margin: 0.25em 0.9em 0.25em 0.3em;
+  -webkit-box-shadow: inset 0 0 0 1em, 0.6em 0 0 0;
+          box-shadow: inset 0 0 0 1em, 0.6em 0 0 0; }
+
+.icono-stop {
+  width: 0;
+  height: 0;
+  border: solid 0.5em;
+  margin: 0.25em; }
+
+.icono-forward, .icono-rewind {
+  width: 0;
+  height: 0;
+  margin: 0.25em;
+  border: 0.5em solid transparent;
+  border-left: 0.5em solid; }
+  .icono-forward:before, .icono-rewind:before {
+    position: absolute;
+    left: 0;
+    top: -0.5em;
+    width: 0;
+    height: 0;
+    border: 0.5em solid transparent;
+    border-left: 0.5em solid; }
+
+.icono-rewind {
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg); }
+
+.icono-next, .icono-previous {
+  width: 0;
+  height: 0;
+  margin: 0.25em 0.15em 0.25em 0.35em;
+  border: 0.5em solid transparent;
+  border-left: 0.5em solid; }
+  .icono-next:before, .icono-previous:before {
+    position: absolute;
+    left: 0;
+    top: -0.5em;
+    width: 0;
+    height: 0;
+    border-width: 0.5em 0.15em;
+    border-style: solid; }
+
+.icono-previous {
+  -webkit-transform: translateX(-0.25em) rotate(180deg);
+      -ms-transform: translateX(-0.25em) rotate(180deg);
+          transform: translateX(-0.25em) rotate(180deg); }
+
+/**
+ * emoji 表情符
+ * 需要调整尺寸的时候只需要设置font-size即可等比缩放
+ * 主控参数默认值 font-size: $U20;
+ * $strokeSize，笔触大小，这里用来指定边框线宽
+ */
+.icono-smile, .icono-frown, .icono-meh {
+  border-radius: 50%;
+  border: 2px solid;
+  height: 1.5em;
+  width: 1.5em; }
+  .icono-smile:before, .icono-frown:before, .icono-meh:before {
+    border-radius: 50%;
+    -webkit-box-shadow: 0.5em 0 0 0, 0 0 0 1em inset;
+            box-shadow: 0.5em 0 0 0, 0 0 0 1em inset;
+    height: 0.2em;
+    width: 0.2em;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    -webkit-transform: translate(-0.25em, 0.35em);
+        -ms-transform: translate(-0.25em, 0.35em);
+            transform: translate(-0.25em, 0.35em); }
+  .icono-smile:after, .icono-frown:after, .icono-meh:after {
+    border-radius: 50%;
+    border: 2px solid;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    height: 0.8em;
+    width: 0.8em;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto; }
+
+.icono-frown:after {
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
+  -webkit-transform-origin: center 85%;
+      -ms-transform-origin: center 85%;
+          transform-origin: center 85%; }
+
+.icono-meh:after {
+  top: -0.2em;
+  width: 0.6em;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-radius: 0; }
+
+/**
+ * Carets
+ * 需要调整尺寸的时候只需要设置font-size即可等比缩放
+ * 主控参数默认值 font-size: $U20;
+ * $strokeSize，笔触大小，也就是图标的线宽
+ */
+.icono-caretRight, .icono-caretRightCircle, .icono-caretRightSquare, .icono-caretLeft, .icono-caretLeftCircle, .icono-caretLeftSquare, .icono-caretUp, .icono-caretUpCircle, .icono-caretUpSquare, .icono-caretDown, .icono-caretDownCircle, .icono-caretDownSquare {
+  width: 0.5em;
+  height: 1em;
+  margin: 0.25em 0.5em; }
+  .icono-caretRight:before, .icono-caretRightCircle:before, .icono-caretRightSquare:before, .icono-caretLeft:before, .icono-caretLeftCircle:before, .icono-caretLeftSquare:before, .icono-caretUp:before, .icono-caretUpCircle:before, .icono-caretUpSquare:before, .icono-caretDown:before, .icono-caretDownCircle:before, .icono-caretDownSquare:before, .icono-caretRight:after, .icono-caretRightCircle:after, .icono-caretRightSquare:after, .icono-caretLeft:after, .icono-caretLeftCircle:after, .icono-caretLeftSquare:after, .icono-caretUp:after, .icono-caretUpCircle:after, .icono-caretUpSquare:after, .icono-caretDown:after, .icono-caretDownCircle:after, .icono-caretDownSquare:after {
+    width: 0.707em;
+    height: 2px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    right: 0;
+    -webkit-box-shadow: inset 0 0 0 1em;
+            box-shadow: inset 0 0 0 1em;
+    -webkit-transform-origin: right;
+        -ms-transform-origin: right;
+            transform-origin: right; }
+  .icono-caretRight:before, .icono-caretRightCircle:before, .icono-caretRightSquare:before, .icono-caretLeft:before, .icono-caretLeftCircle:before, .icono-caretLeftSquare:before, .icono-caretUp:before, .icono-caretUpCircle:before, .icono-caretUpSquare:before, .icono-caretDown:before, .icono-caretDownCircle:before, .icono-caretDownSquare:before {
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg); }
+  .icono-caretRight:after, .icono-caretRightCircle:after, .icono-caretRightSquare:after, .icono-caretLeft:after, .icono-caretLeftCircle:after, .icono-caretLeftSquare:after, .icono-caretUp:after, .icono-caretUpCircle:after, .icono-caretUpSquare:after, .icono-caretDown:after, .icono-caretDownCircle:after, .icono-caretDownSquare:after {
+    -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+            transform: rotate(-45deg); }
+
+.icono-caretLeft, .icono-caretLeftCircle, .icono-caretLeftSquare {
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg); }
+
+.icono-caretUp, .icono-caretUpCircle, .icono-caretUpSquare {
+  -webkit-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+          transform: rotate(-90deg); }
+
+.icono-caretDown, .icono-caretDownCircle, .icono-caretDownSquare {
+  -webkit-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+          transform: rotate(90deg); }
+
+[class*="icono-caret"][class*="Circle"]:before, [class*="icono-caret"][class*="Circle"]:after, [class*="icono-caret"][class*="Square"]:before, [class*="icono-caret"][class*="Square"]:after {
+  width: 0.55em;
+  right: 0.5em; }
+
+/**
+ * Arrow
+ * 需要调整尺寸的时候只需要设置font-size即可等比缩放
+ * 主控参数默认值 font-size: $U20;
+ * PS：这里没有线宽的概念，只有等比缩放。
+ */
+.icono-rightArrow, .icono-leftArrow, .icono-upArrow, .icono-downArrow {
+  width: 0.8em;
+  height: 0.2em;
+  -webkit-box-shadow: inset 0 0 0 1em;
+          box-shadow: inset 0 0 0 1em;
+  margin: 0.65em 0.55em 0.65em 0.15em; }
+  .icono-rightArrow:before, .icono-leftArrow:before, .icono-upArrow:before, .icono-downArrow:before {
+    border-style: solid;
+    border-width: 0.4em 0 0.4em 0.4em;
+    border-color: transparent;
+    border-left-color: inherit;
+    left: 100%;
+    right: auto; }
+
+.icono-leftArrow {
+  -webkit-transform: translateX(0.4em) rotate(180deg);
+      -ms-transform: translateX(0.4em) rotate(180deg);
+          transform: translateX(0.4em) rotate(180deg); }
+
+.icono-upArrow {
+  -webkit-transform: translate(0.2em, 0.2em) rotate(-90deg);
+      -ms-transform: translate(0.2em, 0.2em) rotate(-90deg);
+          transform: translate(0.2em, 0.2em) rotate(-90deg); }
+
+.icono-downArrow {
+  -webkit-transform: translate(0.2em, -0.2em) rotate(90deg);
+      -ms-transform: translate(0.2em, -0.2em) rotate(90deg);
+          transform: translate(0.2em, -0.2em) rotate(90deg); }
+
 [class*="icono-"] {
   display: inline-block;
   position: relative;
   vertical-align: middle;
   color: #ddd;
+  font-size: 20px;
   font-style: normal;
   text-align: left;
   text-indent: -9999px;
@@ -2226,13 +2294,15 @@
             box-shadow: 0 0 0 2px;
     border-radius: 50%;
     width: 1.5em;
-    height: 1.5em; }
+    height: 1.5em;
+    margin: 0; }
   [class*="icono-"][class*="Square"] {
     -webkit-box-shadow: 0 0 0 2px;
             box-shadow: 0 0 0 2px;
     border-radius: 4px;
     width: 1.5em;
-    height: 1.5em; }
+    height: 1.5em;
+    margin: 0; }
   [class*="icono-"], [class*="icono-"] * {
     -webkit-box-sizing: border-box;
             box-sizing: border-box; }

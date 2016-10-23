@@ -1,0 +1,35 @@
+/**
+ * search
+ * 需要调整尺寸的时候只需要设置font-size即可等比缩放
+ * 主控参数默认值 font-size: $U20;
+ * $strokeSize，笔触大小，也就是图标的线宽
+ */
+
+.icono-home {
+    width: 1.1em;
+    height: 0.8em;
+    border: $strokeSize solid;
+    border-top: none;
+    margin: 0.65em 0.2em 0.05em 0.2em;
+    &:before {
+        width: 1em;
+        height: 1em;
+        transform: translate(-50%, -0.35em) rotate(45deg);
+        position: absolute;
+        left: 50%;
+        margin: auto;
+        border: $strokeSize solid;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        box-sizing: border-box;
+    }
+    &:after {
+        position: absolute;
+        width: 0.3em;
+        height: 0.5em;
+        bottom: 0;
+        @include stickCenterH();
+        border: $strokeSize/2 solid;
+        border-bottom: none;
+    }
+}

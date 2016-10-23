@@ -1,18 +1,10 @@
-@import "icons/icono";
+@import "icons/logos";
 
-@import "icons/home";
+@import "ok/home";
 
 @import "icons/mail";
 
 @import "icons/rss";
-
-@import "icons/bars";
-
-@import "ok/plus";
-
-@import "ok/cross";
-
-@import "ok/check";
 
 @import "icons/power";
 
@@ -30,13 +22,11 @@
 
 @import "icons/pin";
 
-@import "icons/smile";
-
 @import "icons/eye";
 
 @import "icons/sliders";
 
-@import "icons/share";
+@import "ok/share";
 
 @import "icons/sync";
 
@@ -52,17 +42,9 @@
 
 @import "icons/dropper";
 
-@import "icons/tiles";
-
-@import "icons/list";
-
 @import "icons/chain";
 
-@import "icons/youtube";
-
 @import "icons/rename";
-
-@import "icons/search";
 
 @import "icons/book";
 
@@ -80,11 +62,7 @@
 
 @import "icons/display";
 
-@import "icons/imac";
-
-@import "icons/iphone";
-
-@import "icons/macbook";
+@import "icons/devices";
 
 @import "icons/image";
 
@@ -93,8 +71,6 @@
 @import "icons/music";
 
 @import "icons/video";
-
-@import "icons/nexus";
 
 @import "icons/microphone";
 
@@ -112,10 +88,6 @@
 
 @import "icons/exclamation";
 
-@import "icons/frown";
-
-@import "icons/meh";
-
 @import "icons/indent";
 
 @import "icons/outdent";
@@ -129,8 +101,6 @@
 @import "icons/bookmark"; // 2 iconos
 
 @import "icons/filter";
-
-@import "icons/volume"; // 7 iconos
 
 @import "icons/tag";
 
@@ -148,24 +118,6 @@
 
 @import "icons/cup";
 
-@import "icons/play";
-
-@import "icons/pause";
-
-@import "icons/stop";
-
-@import "icons/rewind";
-
-@import "icons/forward";
-
-@import "icons/next";
-
-@import "icons/previous";
-
-@import "ok/caret"; // 4 iconos
-
-@import "ok/arrow"; // 4 iconos
-
 @import "icons/sun";
 
 @import "icons/moon";
@@ -176,8 +128,26 @@
 
 @import "icons/circle";
 
-@import "icons/ellipsis";
-
 @import "icons/spinner";
 
 @import "icons/bluetooth";
+
+// ========================================== //
+
+@import "ok/menu";
+
+@import "ok/search";
+
+@import "ok/volume"; // 7 iconos
+
+@import "ok/cross";
+
+@import "ok/check";
+
+@import "ok/audioCtrl";   // 7 iconos
+
+@import "ok/emoji";     // 3 iconos
+
+@import "ok/caret"; // 4 iconos
+
+@import "ok/arrow"; // 4 iconos

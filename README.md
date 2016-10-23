@@ -6,6 +6,9 @@
 
 ##How to use
 
+- 设置font-size可等比缩放图标，同时保持线宽不变
+- 设置zoom可等比缩放图标，线宽也同时变大
+
 
 ####Example:
 `<i class="iconoo-mail"></i>`

@@ -1,43 +1,42 @@
 /**
  * Check
  * 需要调整尺寸的时候只需要设置font-size即可等比缩放
+ * 主控参数默认值 font-size: $U20;
+ * $strokeSize，笔触大小，也就是图标的线宽
  */
 
-// $strokeSize，笔触大小，也就是图标的线宽
-
 [class*="icono-check"] {
-  font-size: $U20; //主控参数
-  width: 1.5em;
-  height: 1.5em;
-  transform: rotate(-45deg);
-  &:before, &:after {
-    box-shadow: inset 0 0 0 1em;
-  }
-  &:before {
-    width: 1em;
-    height: $strokeSize;
-    position: absolute;
-    left: 1em;
-    top: 1em;
-    transform: translate(-50%, -50%);
-  }
-  &:after {
-    height: 0.6em;
-    width: $strokeSize;
-    position: absolute;
-    left: 0.5em;
-    bottom: 0.5em;
-  }
-  &[class*="Circle"] {
+    width: 1.5em;
+    height: 1.5em;
+    transform: rotate(-45deg);
+    &:before, &:after {
+        box-shadow: inset 0 0 0 1em;
+    }
     &:before {
-      width: 0.78em;
-      top: 0.9em;
-      left: 0.85em;
+        width: 1em;
+        height: $strokeSize;
+        position: absolute;
+        left: 0.9em;
+        top: 0.9em;
+        transform: translate(-50%, -50%);
     }
     &:after {
-      height: 0.4em;
-      left: 0.46em;
-      bottom: 0.6em;
+        height: 0.6em;
+        width: $strokeSize;
+        position: absolute;
+        left: 0.4em;
+        bottom: 0.6em;
     }
-  }
+    &[class*="Circle"] {
+        &:before {
+            width: 0.78em;
+            top: 0.9em;
+            left: 0.85em;
+        }
+        &:after {
+            height: 0.4em;
+            left: 0.46em;
+            bottom: 0.6em;
+        }
+    }
 }

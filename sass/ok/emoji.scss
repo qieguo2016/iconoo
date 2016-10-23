@@ -1,0 +1,66 @@
+/**
+ * emoji 表情符
+ * 需要调整尺寸的时候只需要设置font-size即可等比缩放
+ * 主控参数默认值 font-size: $U20;
+ * $strokeSize，笔触大小，这里用来指定边框线宽
+ */
+
+.icono-smile {
+    border-radius: 50%;
+    border: $strokeSize solid;
+    height: 1.5em;
+    width: 1.5em;
+    &:before {
+        border-radius: 50%;
+        box-shadow: 0.5em 0 0 0, 0 0 0 1em inset;
+        height: 0.2em;
+        width: 0.2em;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        transform: translate(-0.25em, 0.35em);
+    }
+    &:after {
+        border-radius: 50%;
+        border: $strokeSize solid;
+        border-top-color: transparent;
+        border-left-color: transparent;
+        border-right-color: transparent;
+        height: 0.8em;
+        width: 0.8em;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+}
+
+.icono-frown {
+    @extend .icono-smile;
+    &:before {
+        @extend .icono-smile:before;
+    }
+    &:after {
+        @extend .icono-smile:after;
+        transform: rotate(180deg);
+        transform-origin: center 85%;
+    }
+}
+
+.icono-meh {
+    @extend .icono-smile;
+    &:before {
+        @extend .icono-smile:before;
+    }
+    &:after {
+        @extend .icono-smile:after;
+        top: -0.2em;
+        width: 0.6em;
+        border-left-width: 0;
+        border-right-width: 0;
+        border-radius: 0;
+    }
+}

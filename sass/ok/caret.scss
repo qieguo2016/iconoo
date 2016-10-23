@@ -1,15 +1,14 @@
 /**
  * Carets
  * 需要调整尺寸的时候只需要设置font-size即可等比缩放
+ * 主控参数默认值 font-size: $U20;
+ * $strokeSize，笔触大小，也就是图标的线宽
  */
 
-// $strokeSize，笔触大小，也就是图标的线宽
-
 .icono-caretRight {
-    font-size: $U20;        //主控参数
     width: 0.5em;
     height: 1em;
-    //margin: $U7 $U11;
+    margin: 0.25em 0.5em;
     &:before, &:after {
         width: 0.707em;         //width effects icon size, base on icon's font-size
         height: $strokeSize;    //height effects line width

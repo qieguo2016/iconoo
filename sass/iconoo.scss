@@ -1,6 +1,5 @@
 // Welcome to Iconode
 // You can use this file in your project instead of .css file, and build it with other your less files.
-
 @import "variables";
 @import "mixins";
 @import "functions";
@@ -14,28 +13,31 @@
     position: relative;
     vertical-align: middle;
     color: $maincolor;
+    font-size: 20px; //主控参数
     font-style: normal;
     text-align: left;
     text-indent: -9999px;
     direction: ltr;
-    &:before, &:after{
-        content:'';
+    &:before, &:after {
+        content: '';
         pointer-events: none;
         //display: block;
-     }
-    &[class*="Circle"]{
-        box-shadow: 0 0 0 $strokeSize;      //采用box-shadow来画边框
+    }
+    &[class*="Circle"] {
+        box-shadow: 0 0 0 $strokeSize; //采用box-shadow来画边框
         border-radius: 50%;
         width: 1.5em;
         height: 1.5em;
+        margin: 0;
     }
-    &[class*="Square"]{
-        box-shadow: 0 0 0 $strokeSize;      //采用box-shadow来画边框
+    &[class*="Square"] {
+        box-shadow: 0 0 0 $strokeSize; //采用box-shadow来画边框
         border-radius: $U4;
         width: 1.5em;
         height: 1.5em;
+        margin: 0;
     }
-    &, & *{
+    &, & * {
         box-sizing: border-box;
     }
 }

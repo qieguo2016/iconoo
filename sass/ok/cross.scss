@@ -1,8 +1,36 @@
 /**
- * Cross
+ * Cross & Plus
  * Cross is 45degree rotated plus
  * 需要调整尺寸的时候只需要设置font-size即可等比缩放
+ * 主控参数默认值 font-size: $U20;
+ * $strokeSize，笔触大小，也就是图标的线宽
  */
+
+[class*="icono-plus"], [class*="icono-cross"] {
+	width: 1.5em;
+	height: 1.5em;
+	&:before, &:after {
+		@extend .stickCenter;
+		box-shadow: inset 0 0 0 1em;
+	}
+	&:before {
+		width: 1em;
+		height: $strokeSize;
+	}
+	&:after {
+		height: 1em;
+		width: $strokeSize;
+	}
+	&[class*="Circle"] {
+		&:before {
+			width: 0.9em;
+		}
+		&:after {
+			height: 0.9em;
+		}
+	}
+}
+
 .icono-cross, .icono-crossCircle{
 	transform: rotate(45deg);
 }
