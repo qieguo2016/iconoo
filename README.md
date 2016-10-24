@@ -2,6 +2,8 @@
 
 **iconoo**是一个纯CSS的图标库，基于**[icono](https://github.com/saeedalipoor/icono)**改造而成，增加了整体缩放功能（线宽不变）；
 
+[LIVE DEMO](https://qieguo2016.github.io/iconoo/)
+
 ##How to use
 
 直接在标签中引入相应的class即可，例如：
@@ -20,7 +22,29 @@ PS：
 
 - 设置zoom或者transform scale可等比缩放图标，线宽也同时变大
 
+-------
+
+#iconoo
+
+[LIVE DEMO](https://qieguo2016.github.io/iconoo/)
+
 **iconoo** is an icon pack that needs no external resources. **iconoo** is base on icono, and it is flexible, and you don't need to calculate any diamesion.
+
+##How to use
+
+Use these class in every tag you want, like these：
+
+`<i class="iconoo-mail"></i>`
+
+`<div class="iconoo-mail"></div>`
+
+`<span class="iconoo-mail"></span>`
+
+`<whatever class="iconoo-mail"></whatever>`
+
+PS: You can simple adjust the size of icons by setting its font-size, of course you can also scale icons by zoom or transform: scale.
+  
+------
 
 ##Available classes
 * `icono-home`
