@@ -16,7 +16,7 @@
  *    sqrt(2) // 1.41421
  *    sqrt(5) // 2.23607
  */
-.icono-stroke, .icono-mail, .icono-mail:before, .icono-power, .icono-heart, .icono-heart:before, .icono-heart:after, .icono-infinity:before, .icono-infinity:after, .icono-flag:before, .icono-flag:after, .icono-file, .icono-document, .icono-folder, .icono-pin, .icono-pin:before, .icono-eye, .icono-sync, .icono-signIn, .icono-signIn:before, .icono-signOut, .icono-signOut:before, .icono-chain:before, .icono-chain:after, .icono-rename, .icono-book, .icono-book:before, .icono-book:after, .icono-forbidden, .icono-trash, .icono-keyboard, .icono-mouse, .icono-mouse:before, .icono-user, .icono-user:before, .icono-crop, .icono-crop:before, .icono-display, .icono-imac, .icono-imacBold, .icono-iphone, .icono-iphoneBold, .icono-macbook:before, .icono-macbookBold:before, .icono-nexus, .icono-image, .icono-headphone, .icono-video, .icono-microphone, .icono-microphone:before, .icono-terminal, .icono-paperClip, .icono-paperClip:before, .icono-paperClip:after, .icono-market, .icono-market:after, .icono-clock, .icono-commentEmpty, .icono-areaChart, .icono-barChart, .icono-bookmarkEmpty, .icono-bookmarkEmpty:before, .icono-tag, .icono-tag:after, .icono-camera, .icono-piano, .icono-ruler, .icono-youtube, .icono-youtube:before, .icono-creditCard {
+.icono-stroke, .icono-mail, .icono-mail:before, .icono-power, .icono-heart, .icono-heart:before, .icono-heart:after, .icono-infinity:before, .icono-infinity:after, .icono-flag:before, .icono-flag:after, .icono-file, .icono-document, .icono-folder, .icono-eye, .icono-signIn, .icono-signIn:before, .icono-signOut, .icono-signOut:before, .icono-chain:before, .icono-chain:after, .icono-rename, .icono-book, .icono-book:before, .icono-book:after, .icono-forbidden, .icono-trash, .icono-keyboard, .icono-mouse, .icono-mouse:before, .icono-user, .icono-user:before, .icono-crop, .icono-crop:before, .icono-display, .icono-imac, .icono-imacBold, .icono-iphone, .icono-iphoneBold, .icono-macbook:before, .icono-macbookBold:before, .icono-nexus, .icono-image, .icono-headphone, .icono-video, .icono-microphone, .icono-microphone:before, .icono-terminal, .icono-paperClip, .icono-paperClip:before, .icono-paperClip:after, .icono-market, .icono-market:after, .icono-clock, .icono-commentEmpty, .icono-areaChart, .icono-barChart, .icono-bookmarkEmpty, .icono-bookmarkEmpty:before, .icono-tag, .icono-tag:after, .icono-camera, .icono-piano, .icono-ruler, .icono-youtube, .icono-youtube:before, .icono-creditCard {
   border: 2px solid; }
 
 .stickCenterV, .icono-dropper:before, .icono-chain:before, .icono-chain:after, .icono-rename:before, .icono-video:before, .icono-paperClip:before, .icono-indent:before, .icono-outdent:before, .icono-flickr:before, .icono-flickr:after, .icono-list:before, .icono-volumeLow:before, .icono-volumeMedium:before, .icono-volumeHigh:before, .icono-volumeHigh:after, .icono-volumeDecrease:before, .icono-volumeIncrease:before, .icono-volumeMute:before, .icono-volumeDecrease:after, .icono-volumeIncrease:after, .icono-volumeMute:after, .icono-rightArrow:before, .icono-leftArrow:before, .icono-upArrow:before, .icono-downArrow:before {
@@ -33,7 +33,7 @@
       -ms-transform: translateX(-50%);
           transform: translateX(-50%); }
 
-.stickCenter, .icono-document:after, .icono-pin:before, .icono-eye:before, .icono-gear:before, .icono-forbidden:before, .icono-keyboard:before, .icono-video:after, .icono-clock:before, .icono-clock:after, .icono-camera:before, .icono-gplus:after, .icono-instagram:before, .icono-youtube:after, [class*="icono-plus"]:before, [class*="icono-plus"]:after, [class*="icono-cross"]:before, [class*="icono-cross"]:after {
+.stickCenter, .icono-document:after, .icono-eye:before, .icono-gear:before, .icono-forbidden:before, .icono-keyboard:before, .icono-video:after, .icono-clock:before, .icono-clock:after, .icono-camera:before, .icono-gplus:after, .icono-instagram:before, .icono-youtube:after, .icono-pin:before, [class*="icono-plus"]:before, [class*="icono-plus"]:after, [class*="icono-cross"]:before, [class*="icono-cross"]:after {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -99,45 +99,6 @@
     -webkit-transform: skew(0, -30deg) scaleY(0.6);
         -ms-transform: skew(0, -30deg) scaleY(0.6);
             transform: skew(0, -30deg) scaleY(0.6); }
-
-/**
- * search
- * 需要调整尺寸的时候只需要设置font-size即可等比缩放
- * 主控参数默认值 font-size: $U20;
- * $strokeSize，笔触大小，也就是图标的线宽
- */
-.icono-home {
-  width: 1.1em;
-  height: 0.8em;
-  border: 2px solid;
-  border-top: none;
-  margin: 0.65em 0.2em 0.05em 0.2em; }
-  .icono-home:before {
-    width: 1em;
-    height: 1em;
-    -webkit-transform: translate(-50%, -0.35em) rotate(45deg);
-        -ms-transform: translate(-50%, -0.35em) rotate(45deg);
-            transform: translate(-50%, -0.35em) rotate(45deg);
-    position: absolute;
-    left: 50%;
-    margin: auto;
-    border: 2px solid;
-    border-right-color: transparent;
-    border-bottom-color: transparent;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box; }
-  .icono-home:after {
-    position: absolute;
-    width: 0.3em;
-    height: 0.5em;
-    bottom: 0;
-    position: absolute;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-        -ms-transform: translateX(-50%);
-            transform: translateX(-50%);
-    border: 1px solid;
-    border-bottom: none; }
 
 .icono-mail {
   width: 28px;
@@ -321,20 +282,6 @@
     border-style: solid;
     border-radius: 3px 3px 0 0; }
 
-.icono-pin {
-  width: 26px;
-  height: 26px;
-  border-radius: 50% 50% 50% 0;
-  -webkit-transform: rotate(-45deg);
-      -ms-transform: rotate(-45deg);
-          transform: rotate(-45deg);
-  margin: 1px 4px 7px; }
-  .icono-pin:before {
-    position: absolute;
-    width: 6px;
-    height: 6px;
-    border-radius: 50%; }
-
 .icono-eye {
   border-radius: 80% 20%;
   -webkit-transform: rotate(45deg);
@@ -374,93 +321,6 @@
     height: 100%;
     -webkit-box-shadow: inset 0 0 0 32px, 10px 0, -10px 0;
             box-shadow: inset 0 0 0 32px, 10px 0, -10px 0; }
-
-/**
- * Share
- * 需要调整尺寸的时候只需要设置font-size即可等比缩放
- * 主控参数默认值 font-size: $U20;
- * PS：这里没有线宽的概念，只有等比缩放。
- */
-.icono-share {
-  height: 0.45em;
-  width: 0.45em;
-  border-radius: 50%;
-  -webkit-box-shadow: inset 0 0 0 1em, 1.1em -0.5em 0 0, 1.1em 0.5em 0 0;
-          box-shadow: inset 0 0 0 1em, 1.1em -0.5em 0 0, 1.1em 0.5em 0 0;
-  margin: 0.55em 1.15em 0.55em -0.05em; }
-  .icono-share:before, .icono-share:after {
-    position: absolute;
-    width: 1.2em;
-    height: 0.1em;
-    -webkit-box-shadow: inset 0 0 0 1em;
-            box-shadow: inset 0 0 0 1em;
-    left: 0; }
-  .icono-share:before {
-    -webkit-transform-origin: left;
-        -ms-transform-origin: left;
-            transform-origin: left;
-    -webkit-transform: translate(0.35em, 0.1em) rotate(-25deg);
-        -ms-transform: translate(0.35em, 0.1em) rotate(-25deg);
-            transform: translate(0.35em, 0.1em) rotate(-25deg); }
-  .icono-share:after {
-    -webkit-transform-origin: left;
-        -ms-transform-origin: left;
-            transform-origin: left;
-    -webkit-transform: translate(0.25em, 0.2em) rotate(25deg);
-        -ms-transform: translate(0.25em, 0.2em) rotate(25deg);
-            transform: translate(0.25em, 0.2em) rotate(25deg); }
-
-.icono-sync {
-  width: 26px;
-  height: 26px;
-  border-radius: 50%;
-  border-right-color: transparent;
-  border-left-color: transparent;
-  margin: 4px; }
-  .icono-sync:before, .icono-sync:after {
-    position: absolute;
-    width: 0;
-    height: 0;
-    border-width: 6px;
-    border-style: solid;
-    border-right-color: transparent;
-    border-bottom-color: transparent;
-    border-left-color: transparent; }
-  .icono-sync:before {
-    -webkit-transform: rotate(-45deg);
-        -ms-transform: rotate(-45deg);
-            transform: rotate(-45deg);
-    right: -7px;
-    top: 0; }
-  .icono-sync:after {
-    -webkit-transform: rotate(135deg);
-        -ms-transform: rotate(135deg);
-            transform: rotate(135deg);
-    left: -7px;
-    bottom: 0; }
-
-.icono-reset {
-  width: 26px;
-  height: 26px;
-  border-radius: 50%;
-  border-width: 2px;
-  border-style: solid;
-  border-left-color: transparent;
-  margin: 4px; }
-  .icono-reset:before {
-    position: absolute;
-    width: 0;
-    height: 0;
-    left: -7px;
-    bottom: 0;
-    border-width: 6px;
-    border-style: solid;
-    border-right-color: transparent;
-    border-left-color: transparent;
-    border-bottom-color: transparent;
-    -webkit-transform: rotate(135deg);
-        -ms-transform: rotate(135deg);
-            transform: rotate(135deg); }
 
 .icono-gear {
   width: 32px;
@@ -1164,32 +1024,6 @@
   border-left-width: 0;
   border-right-width: 5px; }
 
-.icono-locationArrow {
-  width: 32px;
-  height: 32px;
-  margin: 1px; }
-  .icono-locationArrow:before {
-    position: absolute;
-    left: 7px;
-    top: 16px;
-    border-width: 6px 0 6px 6px;
-    border-style: solid;
-    border-left-color: transparent;
-    -webkit-transform: rotate(-45deg);
-        -ms-transform: rotate(-45deg);
-            transform: rotate(-45deg); }
-  .icono-locationArrow:after {
-    position: absolute;
-    top: 10px;
-    left: 2px;
-    border-width: 10px;
-    border-style: solid;
-    border-bottom-color: transparent;
-    border-left-color: transparent;
-    -webkit-transform: skew(-30deg, -30deg);
-        -ms-transform: skew(-30deg, -30deg);
-            transform: skew(-30deg, -30deg); }
-
 .icono-commentEmpty {
   width: 30px;
   height: 22px;
@@ -1871,6 +1705,183 @@
     top: 10px;
     -webkit-transform: rotate(45deg) rotateX(180deg);
             transform: rotate(45deg) rotateX(180deg); }
+
+/**
+ * Pin、
+ * 需要调整尺寸的时候只需要设置font-size即可等比缩放
+ * 主控参数默认值 font-size: $U20;
+ * $strokeSize，笔触大小，也就是图标的线宽
+ */
+.icono-locationArrow {
+  width: 1.5em;
+  height: 1.5em; }
+  .icono-locationArrow:before {
+    position: absolute;
+    left: 0.35em;
+    top: 0.8em;
+    border-width: 0.3em 0 0.3em 0.3em;
+    border-style: solid;
+    border-left-color: transparent;
+    -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+            transform: rotate(-45deg); }
+  .icono-locationArrow:after {
+    position: absolute;
+    top: 0.5em;
+    left: 0.1em;
+    border-width: 0.5em;
+    border-style: solid;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    -webkit-transform: skew(-30deg, -30deg);
+        -ms-transform: skew(-30deg, -30deg);
+            transform: skew(-30deg, -30deg); }
+
+.icono-pin {
+  width: 1.1em;
+  height: 1.1em;
+  border: 2px solid;
+  border-radius: 50% 50% 50% 0;
+  -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg); }
+  .icono-pin:before {
+    position: absolute;
+    width: 0.3em;
+    height: 0.3em;
+    border: 2px solid;
+    border-radius: 50%; }
+
+/**
+ * search
+ * 需要调整尺寸的时候只需要设置font-size即可等比缩放
+ * 主控参数默认值 font-size: $U20;
+ * $strokeSize，笔触大小，也就是图标的线宽
+ */
+.icono-home {
+  width: 1.1em;
+  height: 0.8em;
+  border: 2px solid;
+  border-top: none;
+  margin: 0.65em 0.2em 0.05em 0.2em; }
+  .icono-home:before {
+    width: 1em;
+    height: 1em;
+    -webkit-transform: translate(-50%, -0.35em) rotate(45deg);
+        -ms-transform: translate(-50%, -0.35em) rotate(45deg);
+            transform: translate(-50%, -0.35em) rotate(45deg);
+    position: absolute;
+    left: 50%;
+    margin: auto;
+    border: 2px solid;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
+  .icono-home:after {
+    position: absolute;
+    width: 0.3em;
+    height: 0.5em;
+    bottom: 0;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    border: 1px solid;
+    border-bottom: none; }
+
+/**
+ * Reset、Sync
+ * 需要调整尺寸的时候只需要设置font-size即可等比缩放
+ * 主控参数默认值 font-size: $U20;
+ * $strokeSize，笔触大小，也就是图标的线宽
+ */
+.icono-reset {
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 50%;
+  border-width: 2px;
+  border-style: solid;
+  border-left-color: transparent; }
+  .icono-reset:before {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-width: 0.3em;
+    border-style: solid;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    bottom: 0;
+    right: 50%;
+    -webkit-transform: translateX(-50%) rotate(135deg);
+        -ms-transform: translateX(-50%) rotate(135deg);
+            transform: translateX(-50%) rotate(135deg); }
+
+.icono-sync {
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 50%;
+  border: 2px solid;
+  border-right-color: transparent;
+  border-left-color: transparent; }
+  .icono-sync:before, .icono-sync:after {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-width: 0.3em;
+    border-style: solid;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent; }
+  .icono-sync:before {
+    -webkit-transform: translateX(50%) rotate(-45deg);
+        -ms-transform: translateX(50%) rotate(-45deg);
+            transform: translateX(50%) rotate(-45deg);
+    left: 50%;
+    top: 0; }
+  .icono-sync:after {
+    -webkit-transform: translateX(-50%) rotate(135deg);
+        -ms-transform: translateX(-50%) rotate(135deg);
+            transform: translateX(-50%) rotate(135deg);
+    right: 50%;
+    bottom: 0; }
+
+/**
+ * Share
+ * 需要调整尺寸的时候只需要设置font-size即可等比缩放
+ * 主控参数默认值 font-size: $U20;
+ * PS：这里没有线宽的概念，只有等比缩放。
+ */
+.icono-share {
+  height: 0.45em;
+  width: 0.45em;
+  border-radius: 50%;
+  -webkit-box-shadow: inset 0 0 0 1em, 1.1em -0.5em 0 0, 1.1em 0.5em 0 0;
+          box-shadow: inset 0 0 0 1em, 1.1em -0.5em 0 0, 1.1em 0.5em 0 0;
+  margin: 0.55em 1.15em 0.55em -0.05em; }
+  .icono-share:before, .icono-share:after {
+    position: absolute;
+    width: 1.2em;
+    height: 0.1em;
+    -webkit-box-shadow: inset 0 0 0 1em;
+            box-shadow: inset 0 0 0 1em;
+    left: 0; }
+  .icono-share:before {
+    -webkit-transform-origin: left;
+        -ms-transform-origin: left;
+            transform-origin: left;
+    -webkit-transform: translate(0.35em, 0.1em) rotate(-25deg);
+        -ms-transform: translate(0.35em, 0.1em) rotate(-25deg);
+            transform: translate(0.35em, 0.1em) rotate(-25deg); }
+  .icono-share:after {
+    -webkit-transform-origin: left;
+        -ms-transform-origin: left;
+            transform-origin: left;
+    -webkit-transform: translate(0.25em, 0.2em) rotate(25deg);
+        -ms-transform: translate(0.25em, 0.2em) rotate(25deg);
+            transform: translate(0.25em, 0.2em) rotate(25deg); }
 
 /**
  * search

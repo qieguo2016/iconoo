@@ -1,4 +1,11 @@
-//*-- Pin --*\\
+/**
+ * Pin、
+ * 需要调整尺寸的时候只需要设置font-size即可等比缩放
+ * 主控参数默认值 font-size: $U20;
+ * $strokeSize，笔触大小，也就是图标的线宽
+ */
+
+
 .icono-pin{
     width: $U26;
     height: $U26;

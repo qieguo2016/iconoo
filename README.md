@@ -1,13 +1,13 @@
 #iconoo
 
-**iconoo** is an icon pack that needs no external resources. **iconoo** is base on icono, and it is flexible, and you don't need to calculate any diamesion.
-
-[Demo][2]
+**iconoo**是一个纯CSS的图标库，基于**[icono]()**支持整体缩放并能保持线宽不变；
 
 ##How to use
 
 - 设置font-size可等比缩放图标，同时保持线宽不变
 - 设置zoom可等比缩放图标，线宽也同时变大
+
+**iconoo** is an icon pack that needs no external resources. **iconoo** is base on icono, and it is flexible, and you don't need to calculate any diamesion.
 
 
 ####Example:

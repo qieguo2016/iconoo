@@ -1,0 +1,57 @@
+/**
+ * Reset、Sync
+ * 需要调整尺寸的时候只需要设置font-size即可等比缩放
+ * 主控参数默认值 font-size: $U20;
+ * $strokeSize，笔触大小，也就是图标的线宽
+ */
+
+.icono-reset {
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 50%;
+    border-width: $strokeSize;
+    border-style: solid;
+    border-left-color: transparent;
+    &:before {
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-width: 0.3em;
+        border-style: solid;
+        border-right-color: transparent;
+        border-left-color: transparent;
+        border-bottom-color: transparent;
+        bottom: 0;
+        right: 50%;
+        transform: translateX(-50%) rotate(135deg);
+    }
+}
+
+.icono-sync {
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 50%;
+    border: $strokeSize solid;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    &:before, &:after {
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-width: 0.3em;
+        border-style: solid;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+    }
+    &:before {
+        transform: translateX(50%) rotate(-45deg);
+        left: 50%;
+        top: 0;
+    }
+    &:after {
+        transform: translateX(-50%) rotate(135deg);
+        right: 50%;
+        bottom: 0;
+    }
+}
