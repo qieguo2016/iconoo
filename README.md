@@ -1,16 +1,11 @@
 #iconoo
 
-**iconoo**是一个纯CSS的图标库，基于**[icono]()**支持整体缩放并能保持线宽不变；
+**iconoo**是一个纯CSS的图标库，基于**[icono](https://github.com/saeedalipoor/icono)**改造而成，增加了整体缩放功能（线宽不变）；
 
 ##How to use
 
-- 设置font-size可等比缩放图标，同时保持线宽不变
-- 设置zoom可等比缩放图标，线宽也同时变大
+直接在标签中引入相应的class即可，例如：
 
-**iconoo** is an icon pack that needs no external resources. **iconoo** is base on icono, and it is flexible, and you don't need to calculate any diamesion.
-
-
-####Example:
 `<i class="iconoo-mail"></i>`
 
 `<div class="iconoo-mail"></div>`
@@ -18,6 +13,14 @@
 `<span class="iconoo-mail"></span>`
 
 `<whatever class="iconoo-mail"></whatever>`
+
+PS：
+
+- 设置font-size可等比缩放图标，同时保持线宽不变，默认值为20px（图标宽高为30px）
+
+- 设置zoom或者transform scale可等比缩放图标，线宽也同时变大
+
+**iconoo** is an icon pack that needs no external resources. **iconoo** is base on icono, and it is flexible, and you don't need to calculate any diamesion.
 
 ##Available classes
 * `icono-home`
