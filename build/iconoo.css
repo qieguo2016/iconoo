@@ -1738,8 +1738,8 @@
             transform: skew(-30deg, -30deg); }
 
 .icono-pin {
-  width: 1.1em;
-  height: 1.1em;
+  width: 1.5em;
+  height: 1.5em;
   border: 2px solid;
   border-radius: 50% 50% 50% 0;
   -webkit-transform: rotate(-45deg);
