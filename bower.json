@@ -1,7 +1,0 @@
-{
-  "name": "iconoo",
-  "main": "./build/iconoo.css",
-  "ignore": [
-  ],
-  "private": false
-}
