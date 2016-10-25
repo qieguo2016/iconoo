@@ -1,12 +1,12 @@
 #iconoo
 
-**iconoo**是一个纯CSS的图标库，基于**[icono](https://github.com/saeedalipoor/icono)**改造而成，增加了整体缩放功能（线宽不变）；
+**iconoo**是一个纯CSS的图标库，基于 **[icono][1]** 改造而成，增加了整体缩放功能（线宽不变）；
 
-[LIVE DEMO](https://qieguo2016.github.io/iconoo/)
+**[LIVE DEMO][2]**
 
 ##How to use
 
-直接在标签中引入相应的class即可，例如：
+- **[下载][3]** 后直接link引入css文件，然后直接在标签中引入相应的class即可，例如：
 
 `<i class="iconoo-mail"></i>`
 
@@ -16,7 +16,17 @@
 
 `<whatever class="iconoo-mail"></whatever>`
 
-PS：
+- 如果你使用webpack，那么可以直接使用安装npm包并引入iconoo库即可。
+
+```bash
+// 安装包
+npm i iconoo
+
+// 通过webpack引入
+require('iconoo');
+```
+
+**PS：**
 
 - 设置font-size可等比缩放图标，同时保持线宽不变，默认值为20px（图标宽高为30px）
 
@@ -26,13 +36,13 @@ PS：
 
 #iconoo
 
-[LIVE DEMO](https://qieguo2016.github.io/iconoo/)
+**iconoo** is an icon pack that needs no external resources. **iconoo** is base on **[icono][1]**, and it is flexible, and you don't need to calculate any diamesion.
 
-**iconoo** is an icon pack that needs no external resources. **iconoo** is base on icono, and it is flexible, and you don't need to calculate any diamesion.
+[LIVE DEMO][2]
 
 ##How to use
 
-Use these class in every tag you want, like these：
+- [Download][3] the css file and link it to your page, then use these class in every tag you want, like these：
 
 `<i class="iconoo-mail"></i>`
 
@@ -42,7 +52,19 @@ Use these class in every tag you want, like these：
 
 `<whatever class="iconoo-mail"></whatever>`
 
+- if you use webpack，then you can install iconoo via npm and import into your app like this: 
+
+```bash
+npm i iconoo
+
+require('iconoo');
+```
+
 PS: You can simple adjust the size of icons by setting its font-size, of course you can also scale icons by zoom or transform: scale.
+  
+[1]:https://github.com/saeedalipoor/icono
+[2]:https://qieguo2016.github.io/iconoo/
+[3]:https://github.com/qieguo2016/iconoo/blob/master/dist/iconoo.min.css
   
 ------
 
@@ -72,15 +94,10 @@ PS: You can simple adjust the size of icons by setting its font-size, of course 
 * `icono-share`
 * `icono-sync`
 * `icono-reset`
-* `icono-gear`
-* `icono-signIn`
-* `icono-signOut`
-* `icono-support`
 * `icono-dropper`
 * `icono-tiles`
 * `icono-list`
 * `icono-chain`
-* `icono-youtube`
 * `icono-rename`
 * `icono-search`
 * `icono-book`
@@ -91,13 +108,6 @@ PS: You can simple adjust the size of icons by setting its font-size, of course 
 * `icono-user`
 * `icono-crop`
 * `icono-display`
-* `icono-imac`
-* `icono-iphone`
-* `icono-macbook`
-* `icono-imacBold`
-* `icono-iphoneBold`
-* `icono-macbookBold`
-* `icono-nexus`
 * `icono-microphone`
 * `icono-asterisk`
 * `icono-terminal`
@@ -139,15 +149,6 @@ PS: You can simple adjust the size of icons by setting its font-size, of course 
 * `icono-ruler`
 * `icono-cup`
 * `icono-creditCard`
-* `icono-facebook`
-* `icono-twitter`
-* `icono-gplus`
-* `icono-linkedIn`
-* `icono-instagram`
-* `icono-flickr`
-* `icono-delicious`
-* `icono-codepen`
-* `icono-blogger`
 * `icono-play`
 * `icono-pause`
 * `icono-stop`
