@@ -4,8 +4,34 @@
  * 主控参数默认值 font-size: $U20;
  * PS：这里没有线宽的概念，只有等比缩放。
  */
+.plus {
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+}
 
-.icono-rightArrow {
+.plus:before, plus:after {
+    content: '';
+    pointer-events: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: inset 0 0 0 1em;
+}
+
+.plus:before {
+    width: 1em;
+    height: 2px;
+}
+
+.plus:after {
+    height: 1em;
+    width: 2px;
+}
+
+.iconoo-rightArrow {
     width: 0.8em;
     height: 0.2em;
     box-shadow: inset 0 0 0 1em;
@@ -21,17 +47,17 @@
     }
 }
 
-.icono-leftArrow {
-    @extend .icono-rightArrow;
+.iconoo-leftArrow {
+    @extend .iconoo-rightArrow;
     transform: translateX(0.4em) rotate(180deg);
 }
 
-.icono-upArrow {
-    @extend .icono-rightArrow;
+.iconoo-upArrow {
+    @extend .iconoo-rightArrow;
     transform: translate(0.2em, 0.2em) rotate(-90deg);
 }
 
-.icono-downArrow {
-    @extend .icono-rightArrow;
+.iconoo-downArrow {
+    @extend .iconoo-rightArrow;
     transform: translate(0.2em, -0.2em) rotate(90deg);
 }

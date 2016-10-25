@@ -6,7 +6,7 @@
  * $strokeSize，笔触大小，也就是图标的线宽
  */
 
-[class*="icono-plus"], [class*="icono-cross"] {
+[class*="iconoo-plus"], [class*="iconoo-cross"] {
 	width: 1.5em;
 	height: 1.5em;
 	&:before, &:after {
@@ -31,6 +31,6 @@
 	}
 }
 
-.icono-cross, .icono-crossCircle{
+.iconoo-cross, .iconoo-crossCircle{
 	transform: rotate(45deg);
 }

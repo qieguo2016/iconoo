@@ -1,4 +1,4 @@
-// Welcome to Iconode
+// Welcome to iconoo
 // You can use this file in your project instead of .css file, and build it with other your less files.
 @import "variables";
 @import "mixins";
@@ -8,7 +8,7 @@
 
 // $strokeSize，笔触大小，这里用来指定边框线宽
 
-[class*="icono-"] {
+[class*="iconoo-"] {
     display: inline-block;
     position: relative;
     vertical-align: middle;

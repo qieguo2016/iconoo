@@ -2,7 +2,7 @@
   "name": "iconoo",
   "version": "0.0.0",
   "description": "Adjustable Pure CSS Icons base on iconoo",
-  "main": "./build/iconoo.css",
+  "main": "index",
   "repository": {
     "type": "git",
     "url": "https://github.com/qieguo2016/iconoo.git"

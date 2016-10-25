@@ -5,7 +5,7 @@
  * $strokeSize，笔触大小，也就是图标的线宽
  */
 
-.icono-caretRight {
+.iconoo-caretRight {
     width: 0.5em;
     height: 1em;
     margin: 0.25em 0.5em;
@@ -28,38 +28,38 @@
     }
 }
 
-.icono-caretRightCircle, .icono-caretRightSquare {
-    @extend .icono-caretRight;
+.iconoo-caretRightCircle, .iconoo-caretRightSquare {
+    @extend .iconoo-caretRight;
 }
 
-.icono-caretLeft {
-    @extend .icono-caretRight;
+.iconoo-caretLeft {
+    @extend .iconoo-caretRight;
     transform: rotate(180deg);
 }
 
-.icono-caretLeftCircle, .icono-caretLeftSquare {
-    @extend .icono-caretLeft;
+.iconoo-caretLeftCircle, .iconoo-caretLeftSquare {
+    @extend .iconoo-caretLeft;
 }
 
-.icono-caretUp {
-    @extend .icono-caretRight;
+.iconoo-caretUp {
+    @extend .iconoo-caretRight;
     transform: rotate(-90deg);
 }
 
-.icono-caretUpCircle, .icono-caretUpSquare {
-    @extend .icono-caretUp;
+.iconoo-caretUpCircle, .iconoo-caretUpSquare {
+    @extend .iconoo-caretUp;
 }
 
-.icono-caretDown {
-    @extend .icono-caretRight;
+.iconoo-caretDown {
+    @extend .iconoo-caretRight;
     transform: rotate(90deg);
 }
 
-.icono-caretDownCircle, .icono-caretDownSquare {
-    @extend .icono-caretDown;
+.iconoo-caretDownCircle, .iconoo-caretDownSquare {
+    @extend .iconoo-caretDown;
 }
 
-[class*="icono-caret"] {
+[class*="iconoo-caret"] {
     &[class*="Circle"], &[class*="Square"] {
         &:before, &:after {
             width: 0.55em;  //width effects icon size, base on icon's font-size

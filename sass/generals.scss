@@ -1,23 +1,28 @@
-.icono-stroke{
-	border: $U2 solid;
+.iconoo-stroke {
+    border: $U2 solid;
 }
 
-.stickCenterV{
+.stickCenterV {
     @include stickCenterV;
 }
 
-.stickCenterH{
+.stickCenterH {
     @include stickCenterH;
 }
 
-.stickCenter{
+.stickCenter {
     @include stickCenter;
 }
 
-.spin[class*="spin"]{
+.spin[class*="spin"] {
     animation: loading-spinner 2s infinite linear;
 }
+
 @keyframes loading-spinner {
-  0%   { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
