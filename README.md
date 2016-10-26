@@ -8,13 +8,13 @@
 
 - **[下载][3]** 后直接link引入css文件，然后直接在标签中引入相应的class即可，例如：
 
-`<i class="iconoo-mail"></i>`
+`<i class="iconoo-home"></i>`
 
-`<div class="iconoo-mail"></div>`
+`<div class="iconoo-home"></div>`
 
-`<span class="iconoo-mail"></span>`
+`<span class="iconoo-home"></span>`
 
-`<whatever class="iconoo-mail"></whatever>`
+`<whatever class="iconoo-home"></whatever>`
 
 - 如果你使用webpack，那么可以直接使用安装npm包并引入iconoo库即可。
 
@@ -44,13 +44,13 @@ require('iconoo');
 
 - [Download][3] the css file and link it to your page, then use these class in every tag you want, like these：
 
-`<i class="iconoo-mail"></i>`
+`<i class="iconoo-home"></i>`
 
-`<div class="iconoo-mail"></div>`
+`<div class="iconoo-home"></div>`
 
-`<span class="iconoo-mail"></span>`
+`<span class="iconoo-home"></span>`
 
-`<whatever class="iconoo-mail"></whatever>`
+`<whatever class="iconoo-home"></whatever>`
 
 - if you use webpack，then you can install iconoo via npm and import into your app like this: 
 
@@ -69,121 +69,59 @@ PS: You can simple adjust the size of icons by setting its font-size, of course 
 ------
 
 ##Available classes
-* `icono-home`
-* `icono-mail`
-* `icono-rss`
-* `icono-hamburger`
-* `icono-plus`
-* `icono-cross`
-* `icono-check`
-* `icono-power`
-* `icono-heart`
-* `icono-infinity`
-* `icono-flag`
-* `icono-file`
-* `icono-image`
-* `icono-video`
-* `icono-music`
-* `icono-headphone`
-* `icono-document`
-* `icono-folder`
-* `icono-pin`
-* `icono-smile`
-* `icono-eye`
-* `icono-sliders`
-* `icono-share`
-* `icono-sync`
-* `icono-reset`
-* `icono-dropper`
-* `icono-tiles`
-* `icono-list`
-* `icono-chain`
-* `icono-rename`
-* `icono-search`
-* `icono-book`
-* `icono-forbidden`
-* `icono-trash`
-* `icono-keyboard`
-* `icono-mouse`
-* `icono-user`
-* `icono-crop`
-* `icono-display`
-* `icono-microphone`
-* `icono-asterisk`
-* `icono-terminal`
-* `icono-paperClip`
-* `icono-market`
-* `icono-clock`
-* `icono-textAlignRight`
-* `icono-textAlignCenter`
-* `icono-textAlignLeft`
-* `icono-indent`
-* `icono-outdent`
-* `icono-frown`
-* `icono-meh`
-* `icono-locationArrow`
-* `icono-plusCircle`
-* `icono-checkCircle`
-* `icono-crossCircle`
-* `icono-exclamation`
-* `icono-exclamationCircle`
-* `icono-comment`
-* `icono-commentEmpty`
-* `icono-areaChart`
-* `icono-pieChart`
-* `icono-barChart`
-* `icono-bookmark`
-* `icono-bookmarkEmpty`
-* `icono-filter`
-* `icono-volume`
-* `icono-volumeLow`
-* `icono-volumeMedium`
-* `icono-volumeHigh`
-* `icono-volumeDecrease`
-* `icono-volumeIncrease`
-* `icono-volumeMute`
-* `icono-tag`
-* `icono-calendar`
-* `icono-camera`
-* `icono-piano`
-* `icono-ruler`
-* `icono-cup`
-* `icono-creditCard`
-* `icono-play`
-* `icono-pause`
-* `icono-stop`
-* `icono-rewind`
-* `icono-forward`
-* `icono-next`
-* `icono-previous`
-* `icono-caretRight`
-* `icono-caretLeft`
-* `icono-caretUp`
-* `icono-caretDown`
-* `icono-rightArrow`
-* `icono-leftArrow`
-* `icono-upArrow`
-* `icono-downArrow`
-* `icono-sun`
-* `icono-moon`
-* `icono-disqus`
-* `icono-cart`
-* `icono-caretRightCircle`
-* `icono-caretLeftCircle`
-* `icono-caretUpCircle`
-* `icono-caretDownCircle`
-* `icono-caretRightSquare`
-* `icono-caretLeftSquare`
-* `icono-caretUpSquare`
-* `icono-caretDownSquare`
-* `icono-dribbble`
-* `icono-sitemap`
-* `icono-spinner`
-* `icono-circle`
-* `icono-ellipsis`
 
-
-##Development & Contributing
+ * `iconoo-pin`
+ * `iconoo-locationArrow`
+ * `iconoo-sync`
+ * `iconoo-reset`
+ * `iconoo-share`
+ * `iconoo-search`
+ * `iconoo-home`
+ * `iconoo-bars`
+ * `iconoo-ellipsis`
+ * `iconoo-tiles`
+ * `iconoo-list`
+ * `iconoo-smile`
+ * `iconoo-frown`
+ * `iconoo-meh`
+ * `iconoo-volume`
+ * `iconoo-volumeLow`
+ * `iconoo-volumeMedium`
+ * `iconoo-volumeHigh`
+ * `iconoo-volumeDecrease`
+ * `iconoo-volumeIncrease`
+ * `iconoo-volumeMute`
+ * `iconoo-play`
+ * `iconoo-pause`
+ * `iconoo-stop`
+ * `iconoo-rewind`
+ * `iconoo-forward`
+ * `iconoo-next`
+ * `iconoo-previous`
+ * `iconoo-rightArrow`
+ * `iconoo-leftArrow`
+ * `iconoo-upArrow`
+ * `iconoo-downArrow`
+ * `iconoo-check`
+ * `iconoo-checkCircle`
+ * `iconoo-cross`
+ * `iconoo-crossCircle`
+ * `iconoo-plus`
+ * `iconoo-plusCircle`
+ * `iconoo-caretRight`
+ * `iconoo-caretLeft`
+ * `iconoo-caretUp`
+ * `iconoo-caretDown`
+ * `iconoo-caretRightCircle`
+ * `iconoo-caretLeftCircle`
+ * `iconoo-caretUpCircle`
+ * `iconoo-caretDownCircle`
+ * `iconoo-caretRightSquare`
+ * `iconoo-caretLeftSquare`
+ * `iconoo-caretUpSquare`
+ * `iconoo-caretDownSquare`
+  
+## Development & Contributing
 
 Using npm install the dependencies:
 
