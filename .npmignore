@@ -1,0 +1,7 @@
+node_modules/
+.idea/
+build/
+
+.editorconfig
+gulpfile.js
+index.html

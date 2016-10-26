@@ -5,7 +5,7 @@
  * $strokeSize，笔触大小，这里用来指定边框线宽
  */
 
-.icono-smile {
+.iconoo-smile {
     border-radius: 50%;
     border: $strokeSize solid;
     height: 1.5em;
@@ -38,25 +38,25 @@
     }
 }
 
-.icono-frown {
-    @extend .icono-smile;
+.iconoo-frown {
+    @extend .iconoo-smile;
     &:before {
-        @extend .icono-smile:before;
+        @extend .iconoo-smile:before;
     }
     &:after {
-        @extend .icono-smile:after;
+        @extend .iconoo-smile:after;
         transform: rotate(180deg);
         transform-origin: center 85%;
     }
 }
 
-.icono-meh {
-    @extend .icono-smile;
+.iconoo-meh {
+    @extend .iconoo-smile;
     &:before {
-        @extend .icono-smile:before;
+        @extend .iconoo-smile:before;
     }
     &:after {
-        @extend .icono-smile:after;
+        @extend .iconoo-smile:after;
         top: -0.2em;
         width: 0.6em;
         border-left-width: 0;

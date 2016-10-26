@@ -5,7 +5,7 @@
  * PS：这里没有线宽的概念，只有等比缩放。
  */
 
-.icono-volume {
+.iconoo-volume {
     width: 0;
     height: 0;
     border: 0.35em solid;
@@ -17,8 +17,8 @@
     margin: 0.1em 0.375em;
 }
 
-.icono-volumeLow {
-    @extend .icono-volume;
+.iconoo-volumeLow {
+    @extend .iconoo-volume;
     margin: 0.1em 0.5em 0.1em 0.25em;
     &:before {
         width: 0.75em;
@@ -34,8 +34,8 @@
     }
 }
 
-.icono-volumeMedium {
-    @extend .icono-volumeLow;
+.iconoo-volumeMedium {
+    @extend .iconoo-volumeLow;
     margin: 0.1em 0.6em 0.1em 0.15em;
     &:before {
         border-style: double;
@@ -44,19 +44,19 @@
     }
 }
 
-.icono-volumeHigh {
-    @extend .icono-volumeMedium;
+.iconoo-volumeHigh {
+    @extend .iconoo-volumeMedium;
     margin: 0.1em 0.7em 0.1em 0.05em;
     &:after {
-        @extend .icono-volumeLow:before;
+        @extend .iconoo-volumeLow:before;
         width: 1.6em;
         height: 1.6em;
         left: -0.35em;
     }
 }
 
-.icono-volumeDecrease {
-    @extend .icono-volume;
+.iconoo-volumeDecrease {
+    @extend .iconoo-volume;
     margin: 0.1em 0.7em 0.1em 0.05em;
     &:before, &:after {
         @extend .stickCenterV;
@@ -69,8 +69,8 @@
     }
 }
 
-.icono-volumeIncrease {
-    @extend .icono-volumeDecrease;
+.iconoo-volumeIncrease {
+    @extend .iconoo-volumeDecrease;
     &:after {
         height: 0.5em;
         width: 0.1em;
@@ -78,8 +78,8 @@
     }
 }
 
-.icono-volumeMute {
-    @extend .icono-volumeIncrease;
+.iconoo-volumeMute {
+    @extend .iconoo-volumeIncrease;
     &:after, &:before {
         transform: translateY(-50%) rotate(45deg);
     }

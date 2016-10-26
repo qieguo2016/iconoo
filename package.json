@@ -1,8 +1,8 @@
 {
   "name": "iconoo",
-  "version": "1.0.0",
-  "description": "Flexible Pure CSS Icons base on iconoo",
-  "main": "./build/iconoo.css",
+  "version": "0.0.3",
+  "description": "Adjustable Pure CSS Icons base on iconoo",
+  "main": "index",
   "repository": {
     "type": "git",
     "url": "https://github.com/qieguo2016/iconoo.git"
@@ -19,7 +19,7 @@
     "icons",
     "ui",
     "iconoo",
-    "flexible"
+    "adjustable"
   ],
   "license": "MIT",
   "bugs": {
@@ -31,12 +31,10 @@
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.1",
     "gulp-cssmin": "^0.1.6",
-    "gulp-less": "^2.0.1",
     "gulp-notify": "^2.2.0",
     "gulp-plumber": "^0.6.6",
     "gulp-rename": "^1.2.0",
     "gulp-sass": "^2.3.2",
-    "gulp-stylus": "^2.3.1",
     "gulp-watch": "^3.0.0"
   }
 }

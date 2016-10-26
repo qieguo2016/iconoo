@@ -1,30 +1,63 @@
-//*-- Text align --*\\
-[class*="icono-textAlign"]{
-    width: $U28;
-    height: $U22;
-    margin: $U6 $U3;
-    &:before, &:after{
+/**
+ * emoji 表情符
+ * 需要调整尺寸的时候只需要设置font-size即可等比缩放
+ * 主控参数默认值 font-size: $U20;
+ * $strokeSize，笔触大小，这里用来指定边框线宽
+ */
+
+[class*="iconoo-textAlign"] {
+    width: 1.3em;
+    height: 1.1em;
+    margin: 0.2em 0.1em;
+    &:before, &:after {
         position: absolute;
-        height: $U2;
-        box-shadow: inset 0 0 0 $U32, 0 $U8 0 0, 0 $U16 0 0;
+        height: $strokeSize;
+        box-shadow: inset 0 0 0 1em, 0 0.4em 0 0, 0 0.8em 0 0;
         right: 0;
     }
-    &:before{
-        width: $U28;
+    &:before {
+        width: 1.3em;
         top: 0;
     }
-    &:after{
-        width: $U18;
-        top: $U4;
+    &:after {
+        width: 0.9em;
+        top: 0.2em;
     }
-    &.icono-textAlignCenter{
-        &:before, &:after{
+    &.iconoo-textAlignCenter {
+        &:before, &:after {
             @extend .stickCenterH;
         }
     }
-    &.icono-textAlignLeft{
-        &:before, &:after{
+    &.iconoo-textAlignLeft {
+        &:before, &:after {
             left: 0;
         }
+    }
+}
+
+.iconoo-textIndent {
+    width: 1em;
+    height: 0.8em;
+    border-width: 0.2em 0 0.2em 0.4em;
+    border-style: solid;
+    border-color: transparent;
+    box-shadow: 0 -1*$strokeSize, 0 $strokeSize, inset 0 $strokeSize, inset 0 -1*$strokeSize;
+    margin: 0.35em 0.25em;
+    &:before {
+        @extend .stickCenterV;
+        left: -0.4em;
+        border: 0.25em solid;
+        border-top-color: transparent;
+        border-bottom-color: transparent;
+        border-right-width: 0;
+    }
+}
+
+.iconoo-textOutdent {
+    @extend .iconoo-textIndent;
+    &:before {
+        @extend .iconoo-textIndent:before;
+        border-left-width: 0;
+        border-right-width: 0.25em;
     }
 }
