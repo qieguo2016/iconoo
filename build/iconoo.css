@@ -1,21 +1,4 @@
 @charset "UTF-8";
-/**
- * Returns base to the exponent power.
- * @param {Number} $base The base number
- * @param {Number} $exp The exponent to which to raise base
- * @return {Number}
- * @example
- *     pow(4, 2)   // 16
- *     pow(4, -2)  // 0.0625
- *     pow(4, 0.2) // 1.31951
- */
-/**
- * Returns the square root of a number.
- * @param {Number} $x
- * @example
- *    sqrt(2) // 1.41421
- *    sqrt(5) // 2.23607
- */
 .iconoo-stroke {
   border: 2px solid; }
 
