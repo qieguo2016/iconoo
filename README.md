@@ -4,6 +4,8 @@
 
 **[LIVE DEMO][2]**
 
+![alt=img][4]
+
 ##How to use
 
 - **[下载][3]** 后直接link引入css文件，然后直接在标签中引入相应的class即可，例如：
@@ -64,7 +66,8 @@ PS: You can simple adjust the size of icons by setting its font-size, of course 
   
 [1]:https://github.com/saeedalipoor/icono
 [2]:https://qieguo2016.github.io/iconoo/
-[3]:https://github.com/qieguo2016/iconoo/blob/master/dist/iconoo.min.css
+[3]:https://qieguo2016.github.io/iconoo/dist/iconoo.min.css
+[4]:https://github.com/qieguo2016/iconoo/blob/master/.github/iconoo.png
   
 ------
 
