@@ -32,7 +32,7 @@ require('iconoo');
 
 - 设置zoom或者transform scale可等比缩放图标，线宽也同时变大
 
-- 如果需要改变线宽和其他全局变量，请更改variables.sass内的变量
+- 如果需要改变线宽和其他全局属性，请下载源码，更改variables.sass内的相应变量
 
 -------
 
