@@ -45,6 +45,8 @@ require('iconoo');
 
 - 设置zoom或者transform scale可等比缩放图标，线宽也同时变大
 
+- 下载源码，更改src中的variables.sass，可以设置线宽、图标尺寸等
+
 -------
 
 #iconoo
