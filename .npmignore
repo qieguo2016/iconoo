@@ -1,6 +1,7 @@
-node_modules/
-.idea/
-build/
+node_modules
+.idea
+build
+.github
 
 .editorconfig
 gulpfile.js

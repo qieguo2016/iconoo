@@ -1,7 +1,7 @@
 {
   "name": "iconoo",
-  "version": "0.0.3",
-  "description": "Adjustable Pure CSS Icons base on iconoo",
+  "version": "1.0.0",
+  "description": "A Flexible Pure CSS Icons Pack. One Tag One Icon.",
   "main": "index",
   "repository": {
     "type": "git",
@@ -19,7 +19,8 @@
     "icons",
     "ui",
     "iconoo",
-    "adjustable"
+    "flexible",
+    "pure CSS"
   ],
   "license": "MIT",
   "bugs": {

@@ -6,46 +6,28 @@
   <link rel="stylesheet" href="build/iconoo.css">
   <style type="text/css">
     body {
-      background-color: #555;
+      background-color: #fcffbe;
       text-align: center;
     }
 
-    div {
-      text-align: left;
+    #main-wrap {
+      text-align: center;
+      min-height: 100%;
+      height: auto;
+      position: relative;
+      margin: 0 auto;
+      width: 760px;
     }
 
     span {
       display: inline-block;
-      margin: 20px;
-      border: 1px solid #666;
+      margin: 5px;
       padding: 20px;
       position: relative;
     }
 
-    span:before, span:after {
-      content: "";
-      background-color: rgba(255, 109, 140, 0.5);
-      position: absolute;
-      display: block;
-      left: 0;
-      bottom: 0;
-      right: 0;
-      top: 0;
-      margin: auto;
-    }
-
-    span:after {
-      width: 120%;
-      height: 1px;
-    }
-
-    span:before {
-      height: 120%;
-      width: 1px;
-    }
-
-    span i[class*="iconoo"] {
-      color: #bbb;
+    span i[class*="icono"] {
+      color: #2955ff;
       transition: all 0.2s;
     }
 
@@ -53,181 +35,93 @@
       color: #fff;
     }
 
-    a {
-      color: #eee;
+    span:hover {
+      background-color: #8676e6;
+    }
+
+    .desc {
+      margin: 16px 25px;
+      font-size: 20px;
+      color: #ff0050;
+      font-weight: bold;
+    }
+
+    #github-link {
+      position: fixed;
+      top: 0;
+      right: 0;
     }
   </style>
 </head>
 <body>
-<div>
-  <span><i class="iconoo-mail"></i></span><!--
-  --><span><i class="iconoo-power"></i></span><!--
-  --><span><i class="iconoo-heart"></i></span><!--
-
-  --><span><i class="iconoo-chain"></i></span><!--
-  --><span><i class="iconoo-forbidden"></i></span><!--
-  --><span><i class="iconoo-trash"></i></span><!--
-  --><span><i class="iconoo-keyboard"></i></span><!--
-  --><span><i class="iconoo-user"></i></span><!--
-
-  --><span><i class="iconoo-microphone"></i></span><!--
-  --><span><i class="iconoo-asterisk"></i></span><!--
-  --><span><i class="iconoo-paperClip"></i></span><!--
-
-  --><span><i class="iconoo-comment"></i></span><!--
-  --><span><i class="iconoo-commentEmpty"></i></span><!--
-  --><span><i class="iconoo-disqus"></i></span><!--
-  --><span><i class="iconoo-filter"></i></span><!--
-  --><span><i class="iconoo-tag"></i></span><!--
-
-  --><span><i class="iconoo-file"></i></span><!--
-  --><span><i class="iconoo-image"></i></span><!--
-  --><span><i class="iconoo-music"></i></span><!--
-
-   --><span><i class="iconoo-document"></i></span><!--
-   --><span><i class="iconoo-folder"></i></span><!--
-
-
-  --><span><i class="iconoo-rss"></i></span><!--
-  --><span><i class="iconoo-infinity"></i></span><!--
-  --><span><i class="iconoo-flag"></i></span><!--
-
-   --><span><i class="iconoo-terminal"></i></span><!--
-   --><span><i class="iconoo-clock"></i></span><!--
-
-   --><span><i class="iconoo-spinner spin step"></i></span><!--
-
-  <!--&ndash;&gt;<span><i class="icono-crop"></i></span>&lt;!&ndash;-->
-  <!--&ndash;&gt;<span><i class="icono-camera"></i></span>&lt;!&ndash;-->
-  <!--&ndash;&gt;<span><i class="icono-calendar"></i></span>&lt;!&ndash;-->
-  <!--&ndash;&gt;<span><i class="icono-video"></i></span>&lt;!&ndash;-->
-   <!--&ndash;&gt;<span><i class="icono-headphone"></i></span>&lt;!&ndash;-->
-   <!--&ndash;&gt;<span><i class="icono-market"></i></span>&lt;!&ndash;-->
-   <!--&ndash;&gt;<span><i class="icono-exclamation"></i></span>&lt;!&ndash;-->
-   <!--&ndash;&gt;<span><i class="icono-exclamationCircle"></i></span>&lt;!&ndash;-->
-   <!--&ndash;&gt;<span><i class="icono-areaChart"></i></span>&lt;!&ndash;-->
-   <!--&ndash;&gt;<span><i class="icono-pieChart"></i></span>&lt;!&ndash;-->
-   <!--&ndash;&gt;<span><i class="icono-barChart"></i></span>&lt;!&ndash;-->
-   <!--&ndash;&gt;<span><i class="icono-bookmark"></i></span>&lt;!&ndash;-->
-   <!--&ndash;&gt;<span><i class="icono-bookmarkEmpty"></i></span>&lt;!&ndash;-->
-   <!--&ndash;&gt;<span><i class="icono-piano"></i></span>&lt;!&ndash;-->
-   <!--&ndash;&gt;<span><i class="icono-ruler"></i></span>&lt;!&ndash;-->
-   <!--&ndash;&gt;<span><i class="icono-cup"></i></span>&lt;!&ndash;-->
-   <!--&ndash;&gt;<span><i class="icono-creditCard"></i></span>&lt;!&ndash;-->
-
-   <!--&ndash;&gt;<span><i class="icono-sun"></i></span>&lt;!&ndash;-->
-   <!--&ndash;&gt;<span><i class="icono-moon"></i></span>&lt;!&ndash;-->
-
-   <!--&ndash;&gt;<span><i class="icono-cart"></i></span>&lt;!&ndash;-->
-   <!--&ndash;&gt;<span><i class="icono-dribbble"></i></span>&lt;!&ndash;-->
-   <!--&ndash;&gt;<span><i class="icono-sitemap"></i></span>&lt;!&ndash;-->
-   <!--&ndash;&gt;<span><i class="icono-circle"></i></span>&lt;!&ndash;-->
-
-  <!--&ndash;&gt;<span><i class="icono-support"></i></span>&lt;!&ndash;-->
-   <!--&ndash;&gt;<span><i class="icono-dropper"></i></span>&lt;!&ndash;-->
-   <!--&ndash;&gt;<span><i class="icono-rename"></i></span>&lt;!&ndash;-->
-   <!--&ndash;&gt;<span><i class="icono-book"></i></span>&lt;!&ndash;-->
-   <!--&ndash;&gt;<span><i class="icono-mouse"></i></span>&lt;!&ndash;-->
-      <!--&ndash;&gt;<span><i class="icono-eye"></i></span>&lt;!&ndash;-->
-   <!--&ndash;&gt;<span><i class="icono-sliders"></i></span>&lt;!&ndash;-->
-   <!--&ndash;&gt;<span><i class="icono-signIn"></i></span>&lt;!&ndash;-->
-   <!--&ndash;&gt;<span><i class="icono-signOut"></i></span>&lt;!&ndash;-->
-   <!--&ndash;&gt;<span><i class="icono-bluetooth"></i></span>&lt;!&ndash;-->
-  <!--&ndash;&gt;<span><i class="icono-gear"></i></span>&lt;!&ndash;-->
-  <!--&ndash;&gt;<span><i class="icono-display"></i></span>&lt;!&ndash;-->
-
-  <!--<span><i class="icono-icono"></i></span>&lt;!&ndash;
-  &ndash;&gt;<span><i class="icono-facebook"></i></span>&lt;!&ndash;
-  &ndash;&gt;<span><i class="icono-twitter"></i></span>&lt;!&ndash;
-  &ndash;&gt;<span><i class="icono-gplus"></i></span>&lt;!&ndash;
-  &ndash;&gt;<span><i class="icono-linkedIn"></i></span>&lt;!&ndash;
-  &ndash;&gt;<span><i class="icono-instagram"></i></span>&lt;!&ndash;
-  &ndash;&gt;<span><i class="icono-flickr"></i></span>&lt;!&ndash;
-  &ndash;&gt;<span><i class="icono-delicious"></i></span>&lt;!&ndash;
-  &ndash;&gt;<span><i class="icono-codepen"></i></span>&lt;!&ndash;
-  &ndash;&gt;<span><i class="icono-blogger"></i></span>&lt;!&ndash;
-  &ndash;&gt;<span><i class="icono-youtube"></i></span>&lt;!&ndash;
-
-  &ndash;&gt;<span><i class="icono-imac"></i></span>&lt;!&ndash;
-  &ndash;&gt;<span><i class="icono-iphone"></i></span>&lt;!&ndash;
-  &ndash;&gt;<span><i class="icono-macbook"></i></span>&lt;!&ndash;
-  &ndash;&gt;<span><i class="icono-imacBold"></i></span>&lt;!&ndash;
-  &ndash;&gt;<span><i class="icono-iphoneBold"></i></span>&lt;!&ndash;
-  &ndash;&gt;<span><i class="icono-macbookBold"></i></span>&lt;!&ndash;
-  &ndash;&gt;<span><i class="icono-nexus"></i></span>&lt;!&ndash;-->
-
-  <hr><!--
-
-   ==========  以下部分已经完成  ==========
-
- --><span><i class="iconoo-textAlignRight"></i></span><!--
-   --><span><i class="iconoo-textAlignCenter"></i></span><!--
-   --><span><i class="iconoo-textAlignLeft"></i></span><!--
-   --><span><i class="iconoo-textIndent"></i></span><!--
-   --><span><i class="iconoo-textOutdent"></i></span><!--
-
-  --><span><i class="iconoo-pin"></i></span><!--
+<div id="main-wrap">
+  <a id="github-link" href="https://github.com/qieguo2016/iconoo">
+    <img style="position: absolute; top: 0; right: 0; border: 0; z-index: 100"
+         src="https://camo.githubusercontent.com/652c5b9acfaddf3a9c326fa6bde407b87f7be0f4/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6f72616e67655f6666373630302e706e67"
+         alt="Fork me on GitHub"
+         data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png">
+  </a>
+  <p class="desc">You can set fontsize to adjust icon's size. Of course you can also scale icons by setting zoom or transform-scale. <a href="/dist/iconoo.min.css" download="iconoo.min.css">Download</a></p>
+  <hr>
+  <span><i class="iconoo-pin"></i></span><!--
   --><span><i class="iconoo-locationArrow"></i></span><!--
-   --><span><i class="iconoo-sync"></i></span><!--
-   --><span><i class="iconoo-reset"></i></span><!--
-
-   --><span><i class="iconoo-share"></i></span><!--
-   --><span><i class="iconoo-search"></i></span><!--
-
-   --><span><i class="iconoo-home"></i></span><!--
-   --><span><i class="iconoo-bars"></i></span><!--
-   --><span><i class="iconoo-ellipsis"></i></span><!--
-   --><span><i class="iconoo-tiles"></i></span><!--
-   --><span><i class="iconoo-list"></i></span><!--
-
-   --><span><i class="iconoo-smile"></i></span><!--
-   --><span><i class="iconoo-frown"></i></span><!--
-   --><span><i class="iconoo-meh"></i></span><!--
-
-   --><span><i class="iconoo-volume"></i></span><!--
-   --><span><i class="iconoo-volumeLow"></i></span><!--
-   --><span><i class="iconoo-volumeMedium"></i></span><!--
-   --><span><i class="iconoo-volumeHigh"></i></span><!--
-   --><span><i class="iconoo-volumeDecrease"></i></span><!--
-   --><span><i class="iconoo-volumeIncrease"></i></span><!--
-   --><span><i class="iconoo-volumeMute"></i></span><!--
-
-   --><span><i class="iconoo-play"></i></span><!--
-   --><span><i class="iconoo-pause"></i></span><!--
-   --><span><i class="iconoo-stop"></i></span><!--
-   --><span><i class="iconoo-rewind"></i></span><!--
-   --><span><i class="iconoo-forward"></i></span><!--
-   --><span><i class="iconoo-next"></i></span><!--
-   --><span><i class="iconoo-previous"></i></span><!--
-
-   --><span><i class="iconoo-rightArrow"></i></span><!--
-   --><span><i class="iconoo-leftArrow"></i></span><!--
-   --><span><i class="iconoo-upArrow"></i></span><!--
-   --><span><i class="iconoo-downArrow"></i></span><!--
-
-   --><span><i class="iconoo-check"></i></span><!--
-   --><span><i class="iconoo-checkCircle"></i></span><!--
-
-   --><span><i class="iconoo-cross"></i></span><!--
-   --><span><i class="iconoo-crossCircle"></i></span><!--
-
-   --><span><i class="iconoo-plus"></i></span><!--
-   --><span><i class="iconoo-plusCircle"></i></span><!--
-
-   --><span><i class="iconoo-caretRight"></i></span><!--
-   --><span><i class="iconoo-caretLeft"></i></span><!--
-   --><span><i class="iconoo-caretUp"></i></span><!--
-   --><span><i class="iconoo-caretDown"></i></span><!--
-   --><span><i class="iconoo-caretRightCircle"></i></span><!--
-   --><span><i class="iconoo-caretLeftCircle"></i></span><!--
-   --><span><i class="iconoo-caretUpCircle"></i></span><!--
-   --><span><i class="iconoo-caretDownCircle"></i></span><!--
-   --><span><i class="iconoo-caretRightSquare"></i></span><!--
-   --><span><i class="iconoo-caretLeftSquare"></i></span><!--
-   --><span><i class="iconoo-caretUpSquare"></i></span><!--
-   --><span><i class="iconoo-caretDownSquare"></i></span><!--
-   --><br>
-  <a href="https://qieguo2016.github.io/iconoo/">Main demo</a>
+  --><span><i class="iconoo-sync"></i></span><!--
+  --><span><i class="iconoo-reset"></i></span><!--
+  --><span><i class="iconoo-share"></i></span><!--
+  --><span><i class="iconoo-search"></i></span><!--
+  --><span><i class="iconoo-home"></i></span><!--
+  --><span><i class="iconoo-bars"></i></span><!--
+  --><span><i class="iconoo-ellipsis"></i></span><!--
+  --><span><i class="iconoo-tiles"></i></span><!--
+  --><span><i class="iconoo-list"></i></span><!--
+  --><span><i class="iconoo-smile"></i></span><!--
+  --><span><i class="iconoo-frown"></i></span><!--
+  --><span><i class="iconoo-meh"></i></span><!--
+  --><span><i class="iconoo-volume"></i></span><!--
+  --><span><i class="iconoo-volumeLow"></i></span><!--
+  --><span><i class="iconoo-volumeMedium"></i></span><!--
+  --><span><i class="iconoo-volumeHigh"></i></span><!--
+  --><span><i class="iconoo-volumeDecrease"></i></span><!--
+  --><span><i class="iconoo-volumeIncrease"></i></span><!--
+  --><span><i class="iconoo-volumeMute"></i></span><!--
+  --><span><i class="iconoo-play"></i></span><!--
+  --><span><i class="iconoo-pause"></i></span><!--
+  --><span><i class="iconoo-stop"></i></span><!--
+  --><span><i class="iconoo-rewind"></i></span><!--
+  --><span><i class="iconoo-forward"></i></span><!--
+  --><span><i class="iconoo-next"></i></span><!--
+  --><span><i class="iconoo-previous"></i></span><!--
+  --><span><i class="iconoo-rightArrow"></i></span><!--
+  --><span><i class="iconoo-leftArrow"></i></span><!--
+  --><span><i class="iconoo-upArrow"></i></span><!--
+  --><span><i class="iconoo-downArrow"></i></span><!--
+  --><span><i class="iconoo-check"></i></span><!--
+  --><span><i class="iconoo-checkCircle"></i></span><!--
+  --><span><i class="iconoo-cross"></i></span><!--
+  --><span><i class="iconoo-crossCircle"></i></span><!--
+  --><span><i class="iconoo-plus"></i></span><!--
+  --><span><i class="iconoo-plusCircle"></i></span><!--
+  --><span><i class="iconoo-caretRight"></i></span><!--
+  --><span><i class="iconoo-caretLeft"></i></span><!--
+  --><span><i class="iconoo-caretUp"></i></span><!--
+  --><span><i class="iconoo-caretDown"></i></span><!--
+  --><span><i class="iconoo-caretRightCircle"></i></span><!--
+  --><span><i class="iconoo-caretLeftCircle"></i></span><!--
+  --><span><i class="iconoo-caretUpCircle"></i></span><!--
+  --><span><i class="iconoo-caretDownCircle"></i></span><!--
+  --><span><i class="iconoo-caretRightSquare"></i></span><!--
+  --><span><i class="iconoo-caretLeftSquare"></i></span><!--
+  --><span><i class="iconoo-caretUpSquare"></i></span><!--
+  --><span><i class="iconoo-caretDownSquare"></i></span><!--
+  -->
 </div>
+<script>
+  var wrap = document.getElementById('main-wrap');
+  wrap.addEventListener('click', function (e) {
+    // console.log('e.target',e.target);
+    var target = e.target.children[0] || e.target;
+    console.log('The icon you clicked is : ', target.className);
+  });
+</script>
 </body>
 </html>
