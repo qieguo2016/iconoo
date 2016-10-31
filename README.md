@@ -1,12 +1,23 @@
 #iconoo
 
-**iconoo**是一个纯CSS的图标库，基于 **[icono][1]** 改造而成，增加了整体缩放功能（线宽不变）；
+[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Dependency status][david-dm-image]][david-dm-url] [![Dev Dependency status][david-dm-dev-image]][david-dm-dev-url]
+[npm-url]: https://npmjs.org/package/iconoo
+[downloads-image]: http://img.shields.io/npm/dm/iconoo.svg
+[npm-image]: http://img.shields.io/npm/v/iconoo.svg
+[david-dm-url]:https://david-dm.org/qieguo2016/iconoo
+[david-dm-image]:https://david-dm.org/qieguo2016/iconoo.svg
+[david-dm-dev-url]:https://david-dm.org/qieguo2016/iconoo#info=devDependencies
+[david-dm-dev-image]:https://david-dm.org/qieguo2016/iconoo/dev-status.svg
+
+**iconoo**是一个纯CSS的图标库，基于 **[icono][1]** 改造而成，增加了整体缩放功能（线宽不变）和`webpack`引入方式。
 
 **[LIVE DEMO][2]**
 
+![iconoo][3]
+
 ##How to use
 
-- **[下载][3]** 后直接link引入css文件，然后直接在标签中引入相应的class即可，例如：
+- **[下载][4]** 后直接link引入css文件，然后直接在标签中引入相应的class即可，例如：
 
 `<i class="iconoo-home"></i>`
 
@@ -66,7 +77,8 @@ PS: You can simple adjust the size of icons by setting its font-size, of course 
   
 [1]:https://github.com/saeedalipoor/icono
 [2]:https://qieguo2016.github.io/iconoo/
-[3]:https://github.com/qieguo2016/iconoo/blob/master/dist/iconoo.min.css
+[3]:https://github.com/qieguo2016/iconoo/blob/master/.github/iconoo.png
+[4]:https://github.com/qieguo2016/iconoo/blob/master/dist/iconoo.min.css
   
 ------
 
