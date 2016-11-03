@@ -1,9 +1,7 @@
 var gulp = require('gulp'),
-    less = require('gulp-less'),
     sass = require('gulp-sass'),
-    stylus = require('gulp-stylus'),
     watch = require('gulp-watch'),
-    cssmin = require('gulp-cssmin'),
+    minCSS = require("gulp-clean-css"),
     rename = require('gulp-rename'),
     plumber = require('gulp-plumber'),
     browserSync = require('browser-sync'),
@@ -15,7 +13,7 @@ gulp.task('scss', function () {
     return gulp.src('./sass/iconoo.scss')
                .pipe(plumber({errorHandler: notify.onError('Error: <%= error.message %>')}))
                .pipe(sass())
-               .pipe(autoprefixer('last 10 versions', 'ie 10'))
+			   .pipe(autoprefixer('last 10 version'))
                .pipe(gulp.dest('./build'))
                .pipe(notify({message: 'sass编译完成'}));
 });
@@ -23,7 +21,7 @@ gulp.task('scss', function () {
 // .css -> .min.css
 gulp.task('cssmin', function () {
     gulp.src('./build/*.css')
-        .pipe(cssmin())
+        .pipe(minCSS())
         .pipe(rename({suffix: '.min'}))
         .pipe(gulp.dest('./dist'))
         .pipe(notify({message: 'css压缩完成'}));
