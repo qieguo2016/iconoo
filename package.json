@@ -7,13 +7,11 @@
     "type": "git",
     "url": "https://github.com/qieguo2016/iconoo.git"
   },
-  "contributors": [
-    {
-      "name": "Qieguo",
-      "email": "qieguo.chow@gmail.com",
-      "url": "https://github.com/qieguo2016"
-    }
-  ],
+  "author": {
+    "name": "qieguo",
+    "email": "qieguo.chow@gmail.com",
+    "url": "https://github.com/qieguo2016"
+  },
   "keywords": [
     "css",
     "icons",
