@@ -1,14 +1,11 @@
 dependencies:
   pre:
     - npm config set "//registry.npmjs.org/:_authToken" $NPM_TOKEN
-    - nvm install 4; nvm install 5; nvm install 6; nvm install 7;
+    - nvm install 6;
 
 test:
   override:
-    - nvm use 4 && npm run build
-    - nvm use 5 && npm run build
     - nvm use 6 && npm run build
-    - nvm use 7 && npm run build
 
 deployment:
   npm:
