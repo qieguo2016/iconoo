@@ -1,6 +1,6 @@
 dependencies:
   pre:
-    - echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
+    - npm config set "//registry.npmjs.org/:_authToken" $NPM_TOKEN
     - nvm install 4; nvm install 5; nvm install 6; nvm install 7;
 
 test:
