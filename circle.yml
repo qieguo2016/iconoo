@@ -5,10 +5,10 @@ dependencies:
 
 test:
   override:
-    - nvm use 4 && npm build
-    - nvm use 5 && npm build
-    - nvm use 6 && npm build
-    - nvm use 7 && npm build
+    - nvm use 4 && npm run build
+    - nvm use 5 && npm run build
+    - nvm use 6 && npm run build
+    - nvm use 7 && npm run build
 
 deployment:
   npm:
