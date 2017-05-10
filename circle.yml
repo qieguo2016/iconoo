@@ -1,5 +1,6 @@
 dependencies:
   pre:
+    - echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
     - nvm install 4; nvm install 5; nvm install 6; nvm install 7;
 
 test:
@@ -7,10 +8,10 @@ test:
     - nvm use 4 && npm build
     - nvm use 5 && npm build
     - nvm use 6 && npm build
-    - nvm use 7 && npm build
+    - nvm use  && npm build
 
 deployment:
-  publish:
-    tag: /v?[0-9]+(\.[0-9]+)*(-.+)?/
-    commands:
-      - npm publish
+  npm:
+    tag: /v[0-9]+(\.[0-9]+)*/
+        commands:
+      - npm publis
