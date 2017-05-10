@@ -1,13 +1,6 @@
-#iconoo
+# iconoo
 
-[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Dependency status][david-dm-image]][david-dm-url] [![Dev Dependency status][david-dm-dev-image]][david-dm-dev-url]
-[npm-url]: https://npmjs.org/package/iconoo
-[downloads-image]: http://img.shields.io/npm/dm/iconoo.svg
-[npm-image]: http://img.shields.io/npm/v/iconoo.svg
-[david-dm-url]:https://david-dm.org/qieguo2016/iconoo
-[david-dm-image]:https://david-dm.org/qieguo2016/iconoo.svg
-[david-dm-dev-url]:https://david-dm.org/qieguo2016/iconoo#info=devDependencies
-[david-dm-dev-image]:https://david-dm.org/qieguo2016/iconoo/dev-status.svg
+[![GitHub stars](https://img.shields.io/github/stars/qieguo2016/iconoo.svg)](https://github.com/qieguo2016/iconoo/stargazers) [![GitHub stars](https://img.shields.io/github/stars/qieguo2016/iconoo.svg)](https://github.com/qieguo2016/iconoo/stargazers)
 
 **iconoo**是一个纯CSS的图标库，基于 **[icono][1]** 改造而成，增加了整体缩放功能（线宽不变）和`webpack`引入方式。
 
@@ -15,7 +8,7 @@
 
 ![iconoo][3]
 
-##How to use
+## How to use
 
 - **[下载][4]** 后直接link引入css文件，然后直接在标签中引入相应的class即可，例如：
 
@@ -47,13 +40,13 @@ require('iconoo');
 
 -------
 
-#iconoo
+# iconoo
 
 **iconoo** is an icon pack that needs no external resources. **iconoo** is base on **[icono][1]**, and it is flexible, and you don't need to calculate any diamesion.
 
 [LIVE DEMO][2]
 
-##How to use
+## How to use
 
 - [Download][3] the css file and link it to your page, then use these class in every tag you want, like these：
 
@@ -82,7 +75,7 @@ PS: You can simple adjust the size of icons by setting its font-size, of course 
   
 ------
 
-##Available classes
+## Available classes
 
  * `iconoo-pin`
  * `iconoo-locationArrow`
