@@ -1,6 +1,6 @@
 # iconoo
 
-[![GitHub stars](https://img.shields.io/github/stars/qieguo2016/iconoo.svg)](https://github.com/qieguo2016/iconoo/stargazers) [![GitHub stars](https://img.shields.io/github/stars/qieguo2016/iconoo.svg)](https://github.com/qieguo2016/iconoo/stargazers)
+[![CircleCI](https://img.shields.io/circleci/project/qieguo2016/iconoo.svg)](https://github.com/qieguo2016/iconoo/stargazers) [![GitHub stars](https://img.shields.io/github/stars/qieguo2016/iconoo.svg)](https://github.com/qieguo2016/iconoo/stargazers) [![GitHub stars](https://img.shields.io/github/stars/qieguo2016/iconoo.svg)](https://github.com/qieguo2016/iconoo/stargazers)
 
 **iconoo**是一个纯CSS的图标库，基于 **[icono][1]** 改造而成，增加了整体缩放功能（线宽不变）和`webpack`引入方式。
 
