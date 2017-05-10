@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A Flexible Pure CSS Icons Pack. One Tag One Icon.",
   "main": "index",
+  "scripts": {
+    "build": "gulp"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/qieguo2016/iconoo.git"
